@@ -737,7 +737,7 @@ To do that, we need to drill into some of the details and reports.
 
     f.	Click on **`Show rule help`** link to expand the help section for the **Java EE security** issue. 
 
-    ![](./images/media/image113.png)
+    ![](./images/media/image113_new.png)
 
     g.	Read the “**rule help**”. It explains that When moving applications that use Java EE security to the cloud, consider how the application uses the user registry, Trust Association Interceptors (TAI), and JAAS custom login modules, as well as your on-premises security server.  
 

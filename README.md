@@ -839,7 +839,7 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
 
 1.	Return to the **“All Java applications”** page in Transformation Advisor which displays the Java application summary list 
 
-    ![](./images/media/image127.png)
+    ![](./images/media/AllApp_new.png)
 
 2.	Ensure only the **`WebSphere Liberty`** migration target is selected
 

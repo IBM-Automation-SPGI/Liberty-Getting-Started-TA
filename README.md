@@ -1202,7 +1202,7 @@ installed.
 
     a.   From a Terminal window, run the following commands to download the Open Liberty archive
 
-        wget https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.12/openliberty-webProfile10-23.0.0.12.zip  -P ~/Student
+        wget https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.12/openliberty-javaee8-23.0.0.12.zip  -P ~/Student
 
     b.  Run the following commands to perform an archive installation of Open Liberty
 

@@ -1015,7 +1015,7 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
 
     a.  Scroll down through the `Inventory Report` to view this report which serves as good decision-making tool to info you what is inside your application runtime, and to help you to have a better understanding of the application runtime, the components it has and the relationships among them.
 
-    ![ta inventory report 2](./images/media/image54.png)
+    ![ta inventory report 2](./images/media/image54_new.png)
 
 9. In the `Inventory report`, view the package names of the classes in
     the utility Jars

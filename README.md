@@ -1404,7 +1404,7 @@ The `Containerfile` is a two-stage Containerfile:
     </tbody>
     </table>
 
-    ![](./images/media/image75.png)
+    ![](./images/media/image75_new.png)
 
 6.  **`Stop`** and **`remove`** the container. Then check that the
     container has been removed, by using the “**docker ps -a”** command

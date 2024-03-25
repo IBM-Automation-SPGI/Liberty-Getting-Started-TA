@@ -888,7 +888,7 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
     ![](./images/media/TA_server_xml_part3_new.png)
 
 
-    e.	**Variables**, and default values, where it makes sense are configured.
+    d.	**Variables**, and default values, where it makes sense are configured.
 
     These variables are used to extract data that is likely going to be different between environments such as TEST, QA, PROD environments. 
 

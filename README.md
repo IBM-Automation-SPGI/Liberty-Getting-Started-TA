@@ -368,7 +368,7 @@ Transformation Advisor UI.
 
 
 
-2.  Click the **`Download`** button to download the data collector for     Linux
+2.  Click the **`Download`** button to download the data collector for Linux
 
     ![](./images/media/image15.png)
 
@@ -378,12 +378,11 @@ Transformation Advisor UI.
     application and configuration data from WebSphere, WebLogic, and
     Tomcat servers.
     
-    a.  Since the lab VM is a Linux OS, click **`Download Linux`** to get
-        the utility.
+    a.  Since the lab VM is a Linux OS, click **`Download Linux`** to get the utility.
 
     ![A screenshot of a social media post Description automatically  generated](./images/media/image16.png)
-
-    The zipped Data Collector utility file will be saved in  **/home/techzone/Downloads** directory of the **Workstation** VM.
+    <!-- LBH: Adjusted text as browser requests to clikd save -->
+    Keep the defaults and click on Save. The zipped Data Collector utility file will be saved in  **/home/techzone/Downloads** directory of the **Workstation** VM.
 
     ![](./images/media/image17.png) 
  
@@ -408,19 +407,19 @@ Now, let’s `simulate` the steps to run the data collector.
         ls -l | grep transformationadvisor
 
     You can see the downloaded data collector utility file named  “**transformationadvisor-Linux\_Evaluation.tgz**”
- 
-    ![](./images/media/image18.png)
+    <!-- LBH: Adjusted image to new TA -->
+    ![](./images/media/TA_collector_new.png)
 
 2.  Extract the data collector utility using the following command:
-
-
+    
         tar xvfz transformationadvisor-Linux_Evaluation.tgz
 
-    The data collector utility will be extracted to **/home/techzone/Downloads/transformationadvisor-3.8.1** directory.
+    <!-- LBH: Adjusted the path to new TA -->
+    The data collector utility will be extracted to **/home/techzone/Downloads/transformationadvisor-3.9.0** directory.
 
     ___
 
-    **Note:** At this point, the data collector is ready to execute  against a WebSphere environment.
+    **Note:** At this point, the data collector is ready to execute against a WebSphere environment.
     ___
 
 

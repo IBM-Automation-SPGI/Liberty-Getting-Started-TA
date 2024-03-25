@@ -1284,17 +1284,19 @@ installed.
     </tbody>
     </table>
 
-    ![](./images/media/image75.png)
+    ![](./images/media/image75_new.png)
 
-8.  `Stop` the Open Liberty server, from a Terminal window. 
+8.  In the Terminal window running the “**tail**” command on the Open Liberty log file, notice that the application has been accessed.
 
-        /home/techzone/Liberty/wlp/bin/server stop modresorts_server
+    ![](./images/media/image75b_new.png)
 
-    ![](./images/media/image76.png)
+9.  Switch to the `Terminal` window where you started Liberty. `Stop` the Open Liberty server, from a Terminal window. 
 
+        bin/server stop modresorts_server
 
-9.  Use **CTL-C** to stop the “**tail**” command in the 2<sup>nd</sup>
-    Terminal window
+    ![](./images/media/image76_new.png)
+
+10. Switch back to the Terminal window running the “**tail**” command, then use **CTL-C** to stop the “**tail**” command.
 
 
 ## 9. Use Transformation Advisor accelerators to run the Mod Resorts application on Open Liberty in containers

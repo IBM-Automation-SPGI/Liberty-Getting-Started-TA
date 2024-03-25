@@ -806,7 +806,10 @@ Let’s understand why the effort to move the application top Open Liberty requi
     ![](./images/media/TA_COS_UnifiedCodeIssue_new.png)
 
 
-6.	Scroll down to the available reports. Open the **`Analysis report`**
+6.	Scroll down to see the details of the **automated fix**.
+    ![](./images/media/TA_COS_AutomatedFix_new.png)
+
+7.  Scroll down to the available reports. Open the **`Analysis report`**
 
     ![](./images/media/image122.png)
 

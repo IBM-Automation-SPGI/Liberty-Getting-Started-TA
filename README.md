@@ -1324,15 +1324,13 @@ The `Containerfile` is a two-stage Containerfile:
 
     a.  From a Terminal window, change to the directory where the Transformation Advisor migration bundle is located. 
 
-        cd ~/modresorts-bundle
+        cd ~/Student/modresorts-bundle
     
     b.  Run the Docker build command to build the image
 
-    - The name of the docker image will be **modresorts:1.0,** as
-    specified by the -t (tag) parameter.
+    - The name of the docker image will be **modresorts:1.0,** as specified by the -t (tag) parameter.
 
-    - The container image is built from the directives in the **Containerfile** as
-    specified by the -f (tag) parameter.
+    - The container image is built from the directives in the **Containerfile** as specified by the -f (tag) parameter.
     
     - The Container image is built using the artifacts in the current directoy of the migration bunlde, as specified by the training **dot** on the command
 
@@ -1340,7 +1338,7 @@ The `Containerfile` is a two-stage Containerfile:
 
     When complete, you will see that the Container image was created and tagged as “**modresorts:1.0**”
 
-    ![](./images/media/image77.png)
+    ![](./images/media/image77_new.png)
 
 
     c.  List the Container image and its tag. The name of the image is
@@ -1348,7 +1346,7 @@ The `Containerfile` is a two-stage Containerfile:
 
         docker images | grep modresorts
 
-    ![](./images/media/image78.png)
+    ![](./images/media/image78_new.png)
 
 2.  Run the Modresorts app in the container
 

@@ -384,7 +384,7 @@ Transformation Advisor UI.
     <!-- LBH: Adjusted text as browser requests to clikd save -->
     Keep the defaults and click on Save. The zipped Data Collector utility file will be saved in  **/home/techzone/Downloads** directory of the **Workstation** VM.
 
-    ![](./images/media/image17.png) 
+    ![](./images/media/image17_new.png) 
  
  
     Continue to the next section of the lab to simulate running the data  collector utility.

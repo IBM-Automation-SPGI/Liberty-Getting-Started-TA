@@ -817,11 +817,11 @@ Let’s understand why the effort to move the application top Open Liberty requi
 
 7.  Scroll down to the available reports. Open the **`Analysis report`**
 
-    ![](./images/media/image122.png)
+    ![](./images/media/image111_new.png)
 
 8.	Go to the **`Critical rules`** flagged for the application moving to Open Liberty. 
 
-    ![](./images/media/image123.png)
+    ![](./images/media/image123_new.png)
 
 9.	Expand the **`OpenJPA and WebSphere JPA configuration properties must be migrated`** section
 
@@ -831,7 +831,7 @@ Let’s understand why the effort to move the application top Open Liberty requi
 
     **Open Liberty** does not support that old specification. However, **WebSphere Liberty** does support many of the Java EE 6 API specifications, including JPA 2.0. 
 
-    ![](./images/media/image124.png)
+    ![](./images/media/image124_new.png)
 
 In this examination of the Customer Order Services application for **WebSphere Liberty** and **Open Liberty**, you gained insights into why the scope of effort moving to Open Liberty may be HIGHER compared to moving to WebSphere Liberty. 
 

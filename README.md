@@ -904,7 +904,7 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
 
     ![](./images/media/TA_Bundle_Download_new.png)
 
-    The migaration bundle in the form of a zip file will be downloaded to the **Download** directory of the VM.
+    Leave the target folder and file name and press Save. The migration bundle in the form of a zip file will be downloaded to the **Download** directory of the VM.
 
 
 ###  6.6.2 Evaluate Mod Resorts application

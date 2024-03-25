@@ -1011,7 +1011,7 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
  
     It also gives you a view of all the utility JAR files in the application, and the **Java package names** in the jar files, which will help identify if the classes are the customers application code  or 3<sup>rd</sup> party code. Potential deployment problems and  performance considerations are also included.
  
-    ![](./images/media/image53.png)
+    ![](./images/media/image53_new.png)
 
     a.  Scroll down through the `Inventory Report` to view this report which serves as good decision-making tool to info you what is inside your application runtime, and to help you to have a better understanding of the application runtime, the components it has and the relationships among them.
 

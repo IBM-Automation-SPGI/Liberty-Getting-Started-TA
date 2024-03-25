@@ -1094,7 +1094,7 @@ expedite the app deployment to OpenShift Platform.
 
 2.  Ensure only the **`Open Liberty`** migration target is selected
 
-    ![](./images/media/image60.png)
+    ![](./images/media/image60_new.png)
 
 3.  Click on the **`Migration plan`** link located next to the Mod Resorts application analysis for `Open Liberty`, which will display
     **`migration plan`** for modresorts for the Open Liberty target

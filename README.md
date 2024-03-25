@@ -1090,7 +1090,7 @@ expedite the app deployment to OpenShift Platform.
 1.  Return to the “**All Java applications**” page in Transformation
     Advisor which displays the Java application summary list
 
-    ![](./images/media/image59.png)
+    ![](./images/media/image59_new.png)
 
 2.  Ensure only the **`Open Liberty`** migration target is selected
 

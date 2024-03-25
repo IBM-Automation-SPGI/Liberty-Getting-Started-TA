@@ -795,7 +795,7 @@ Let’s understand why the effort to move the application top Open Liberty requi
 
     We can see that moving to Open Liberty flags issues related JPA, Persistence unit second-level cache and CDI scans that were not flagged for WebSphere Liberty.  
 
-    ![](./images/media/image120.png)
+    ![](./images/media/image120_new.png)
   
 4.	Scroll down to the **“Unique Code Issues”** section of the details view. 
 

@@ -756,11 +756,11 @@ To do that, we need to drill into some of the details and reports.
    
 2.	Return to the browser tab that displays the “**Application Details Page**” and view the **`Technology report`**. 
 
-    ![](./images/media/image44.png)
+    ![](./images/media/image44_new.png)
 
     The Technology report provides the details on which IBM platforms support the Java EE technologies used by the applications.
 
-    ![](./images/media/image118.png)
+    ![](./images/media/image118_new.png)
     ___
 
     **Tip:** If checks are omitted for specific editions of Liberty, this means the application code will have to be rewritten to run on that specific target environment. That adds application and developer costs to the project. 

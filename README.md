@@ -805,6 +805,7 @@ Let’s understand why the effort to move the application top Open Liberty requi
 
     ![](./images/media/TA_COS_UnifiedCodeIssue_new.png)
 
+<!-- LBH: Addes bullet about automated fix -->
 
 6.	Scroll down to see the details of the **automated fix**.
     ![](./images/media/TA_COS_AutomatedFix_new.png)
@@ -813,11 +814,11 @@ Let’s understand why the effort to move the application top Open Liberty requi
 
     ![](./images/media/image122.png)
 
-7.	Go to the **`Critical rules`** flagged for the application moving to Open Liberty. 
+8.	Go to the **`Critical rules`** flagged for the application moving to Open Liberty. 
 
     ![](./images/media/image123.png)
 
-8.	Expand the **`OpenJPA and WebSphere JPA configuration properties must be migrated`** section
+9.	Expand the **`OpenJPA and WebSphere JPA configuration properties must be migrated`** section
 
     Here you find that `JPA 2.0` was discovered in the application. 
 

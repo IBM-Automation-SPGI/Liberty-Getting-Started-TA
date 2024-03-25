@@ -1207,13 +1207,12 @@ installed.
     b.  Run the following commands to perform an archive installation of Open Liberty
 
         mkdir ~/Student/Liberty
-        cd ~/Student/Liberty
         unzip ~/Student/openliberty-webProfile10-23.0.0.12.zip -d ~/Student/Liberty
 
 
-    c.  Open Liberty is installed to the **/home/techzone/Liberty/wlp** directory.  Change to Open Liberty “**bin**” directory, which is where the Open Liberty binaries are located.
+    c.  Open Liberty is installed to the **/home/techzone/Student/Liberty/wlp** directory.  Change to Open Liberty root directory.
 
-        cd wlp
+        cd ~/Student/Liberty/wlp
 
 2.  Use the **`server`** command to create a new Open Liberty server named **`modresorts_server`**
 
@@ -1221,23 +1220,22 @@ installed.
 
     ![](./images/media/image70_new.png)
 
-3.  Use the **`server`** command to start the Open Liberty server named
-    **`modresorts_server`**
+3.  Use the **`server`** command to start the Open Liberty server named **`modresorts_server`**. The server configuration will be stored under the **`usr/servers`**.
 
         bin/server start modresorts_server
 
     ![](./images/media/image71_new.png)
 
-4.  Open a new `Terminal` window and view the Open Liberty server log
-    file named “messages.log”
+4.  Open a new `Terminal` window and view the Open Liberty server log file named “messages.log”
 
-         tail -f ~/Liberty/wlp/usr/servers/modresorts_server/logs/messages.log 
+         cd ~/Student/Liberty/wlp 
+         tail -f usr/servers/modresorts_server/logs/messages.log 
 
     a.  Look for the message that the modresorts server started     successfully
 
-    ![](./images/media/image72.png)
+    ![](./images/media/image72_new.png)
 
-    At this point you have an Open Liberty Server running with a defaultserver configuration. However, there are no applications installed(deployed).
+    At this point you have an Open Liberty Server running with a defaultserver configuration. However, there are no applications installed (deployed).
     
 
     Next, you will copy the Mod Resorts binary (WAR) to the Open Liberty server, in which case the application will be deployed and started. Then copy the Open Liberty server configuration file that TA generated for the Mod Resorts application. 
@@ -1245,20 +1243,19 @@ installed.
     The Liberty server will automatically detect and apply these changes in the running server. 
    
 
-5.	From a new `Termninal` window, install the modresorts application to the Open Liberty server, using the WAR file that is included in the Transformation Advisor migration bundle.
+5.	Switch to the `Terminal` window where you started Liberty. Install the modresorts application to the Open Liberty server, using the WAR file that is included in the Transformation Advisor migration bundle.
 
-        cp ~/modresorts-bundle/target/modresorts-1.0.war ~/Liberty/wlp/usr/servers/modresorts_server/apps
+        cp ~/Student/modresorts-bundle/target/modresorts-1.0.war usr/servers/modresorts_server/apps
 
-    The command above copied the modresorts application WAR file to the  Open Liberty “**apps**” folder, which where the **server.xml** file is  configured to run the application.
+    The command above copied the modresorts application WAR file to the Open Liberty “**apps**” folder, where the **server.xml** file is  configured to run the application.
 
 
-6.  Copy the **server.xml** file that Transformation Advisor, which
-    includes the Open Liberty server configuration for the modresorts
+6.  Copy the **server.xml** file that Transformation Advisor generated, which includes the Open Liberty server configuration for the modresorts
     application
 
     a.   From a `Terminal` window, run the following command to copy the **server.xml** file to the  **modresorts_server** configuration directory.
 
-        cp ~/modresorts-bundle/src/main/liberty/config/server.xml ~/Liberty/wlp/usr/servers/modresorts_server
+        cp ~/Student/modresorts-bundle/src/main/liberty/config/server.xml usr/servers/modresorts_server
 
     b.  In the Terminal window running the “**tail**” command on the Open Liberty log file, notice that the server is being updated to reflect the updates in the new server.xml file that we copied into the Liberty runtime configuration.
 

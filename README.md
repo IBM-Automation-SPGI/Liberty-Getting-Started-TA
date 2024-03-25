@@ -1389,7 +1389,7 @@ The `Containerfile` is a two-stage Containerfile:
 
         http://localhost:9081/resorts
 
-    ![](./images/media/image81.png)
+    ![](./images/media/image81_new.png)
 
     a.  You may click the drop-down menu for “**WHERE TO**?” and select a destination
 

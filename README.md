@@ -1103,9 +1103,12 @@ expedite the app deployment to OpenShift Platform.
 
 7.  Click the **`Download`** link to download the bundle of artifacts to the local filesystem on the Workstation VM.
 
-    The **modresorts10war_migrationBundle.zip** file will be downloaded to the **/home/techzone/Downloads** directory
+    ![](./images/media/image65_new.png)
+    
+    Accept the defaults and click on **Save**
+     ![](./images/media/image65_new.png)
+     The **modresorts10war_migrationBundle.zip** file will be downloaded to the **/home/techzone/Downloads** directory
  
-     ![](./images/media/image65.png)
 
 8.  Unzip the migration bundle artifacts to a new folder on the
     Workstation VM

@@ -746,12 +746,12 @@ To do that, we need to drill into some of the details and reports.
 
     h.	To find out where in the application code these issues are flagged, click on the **`show results`** link next to the issue. 
     
-    ![](./images/media/image115.png)
+    ![](./images/media/image115_new.png)
 
     You will see the modules, classes, method names, and line numbers that are impacted by the issue. 
  
 
-    ![](./images/media/image116.png)
+    ![](./images/media/image116_new.png)
 
    
 2.	Return to the browser tab that displays the “**Application Details Page**” and view the **`Technology report`**. 

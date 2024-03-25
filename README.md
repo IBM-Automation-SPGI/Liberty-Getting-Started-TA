@@ -1036,7 +1036,7 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
  
     It could be possible that application code was not analyzed due to  package names that are ignored by the data collector
  
-    ![](./images/media/image55.png)
+    ![](./images/media/image55_new.png)
  
     From the analysis reports you reviewed above, you know that the Mod  Resorts application is supported by Open Liberty, and the issue that  the tool identified would not affect the application migration.
  

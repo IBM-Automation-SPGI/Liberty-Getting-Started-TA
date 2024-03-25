@@ -860,12 +860,12 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
     ![](./images/media/TA_Migration_bundle_new.png)
 
 5.	Click to view the contents of the **`server.xml`** file.
-
-    ![](./images/media/image131.png)
+    <!-- LBH: Adjusted picture -->
+    ![](./images/media/TA_Migration_artifacts_new.png)
 
 6.	The **server.xml** is displayed in the File preview window, click **`Show more`** to expand it.
 
-    ![](./images/media/image132.png)
+    ![](./images/media/server_xml_part1_new.png)
  
 
 7.	Review the contents of the **server.xml** file.

@@ -1269,7 +1269,7 @@ installed.
 
         http://localhost:9080/resorts
 
-     ![](./images/media/image74.png)
+     ![](./images/media/image74_new.png)
 
     a.  You may click the drop-down menu for “**WHERE TO**?” and select a destination
 

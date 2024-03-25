@@ -594,7 +594,7 @@ view the application data analysis results that was collected in the previous se
 1.  From the “**All Java applications”** page, you can see there was a
     total of 5 applications analyzed from the WAS server.
 
-    ![](./images/media/image32.png)
+    ![](./images/media/image32_new.png)
  
     When data is uploaded, Transformation Advisor automatically detects the **host machine** the data came from, meaning, where the WebSphere
  application server apps were running. TA creates a corresponding **collection** and adds the applications there.

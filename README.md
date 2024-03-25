@@ -637,7 +637,7 @@ view the application data analysis results that was collected in the previous se
  
     However, moving to **"WebSphere Liberty"** may require **2.5 days** and "**Open Liberty"** may take **5.5 days** of development time.
  
-    ![](./images/media/image35.png)
+    ![](./images/media/image35_new.png)
  
     The “**All Java applications”** page also shows the  **application**  **summary** analysis results for all the apps from the AppSrv01  profile for each of the selected migration targets.
  

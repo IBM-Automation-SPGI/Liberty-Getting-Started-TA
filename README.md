@@ -915,8 +915,8 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
 
     Leave the target folder and file name and press Save. The migration bundle in the form of a zip file will be downloaded to the **Download** directory of the VM.
 10.	Switch to the terminal window and execute the following command to see the content of the migration bundle. 
-    
-    unzip -l customerorderservicesapp.ear_migrationBundle.zip
+
+        unzip -l customerorderservicesapp.ear_migrationBundle.zip
     
     ![](./images/media/COS_migrationBundle_new.png)
 

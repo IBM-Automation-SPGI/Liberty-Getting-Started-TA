@@ -341,7 +341,7 @@ Transformation Advisor UI.
     
     a.  Click the **`Create New`** button.
     
-    ![](./images/media/createnew.png)
+    ![](./images/media/image14_new.png)
     
     b.  Enter the workspace name as **`Evaluation`**, then click the **`Create`** button.
 

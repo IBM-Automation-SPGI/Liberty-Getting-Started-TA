@@ -1231,7 +1231,7 @@ installed.
          cd ~/Student/Liberty/wlp 
          tail -f usr/servers/modresorts_server/logs/messages.log 
 
-    a.  Look for the message that the modresorts server started     successfully
+    a.  Look for the message that the modresorts server started successfully
 
     ![](./images/media/image72_new.png)
 

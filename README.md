@@ -556,11 +556,11 @@ ___
     <!-- LBH: Adjusted test and picture to Student path -->
     c.  Navigate to the location of the data collection file **Home > techzone > Student > appmod-pot-labfiles > labs > TransformationAdvisor** and select the **`AppSrv01-3.8.1.zip`** file. Then click the **`Open`** button on the page.
 
-    ![](./images/media/TA_Collection_Upload_new.png)
+    ![](./images/media/images29_new.png)
 
     d.  The **AppSrv01-3.8.1.zip** data collection file is now ready to be uploaded. Click the **`Upload`** button to continue.
 
-    ![](./images/media/image30.png)
+    ![](./images/media/image30_new.png)
  
     Once the data collection has been uploaded to Transformation Advisor, you are redirected back to the TA Recommendations screen.
  

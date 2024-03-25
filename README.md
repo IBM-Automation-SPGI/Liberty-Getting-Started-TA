@@ -162,7 +162,7 @@ The lab environment contains one Linux VMs.
 	 
 	 <br>
 
-## Tips for working in the lab environment     
+## 5. Tips for working in the lab environment     
 
 1. You can resize the viewable area using the **noVNC Settings** options to resize the virtual desktop to fit your screen.
 
@@ -236,6 +236,7 @@ container-based cloud.
     generates to identify the right candidate application for a rapid
     and cost-effective migration to Liberty and container-based cloud.
 
+<br>
 
 ## 6. Execute Lab Tasks
 
@@ -282,10 +283,9 @@ and what the effort might be to get it there.
 The Transformation Advisor is installed locally on the **Workstation**
 VM. Launch the Transformation Advisor tool using the steps below.
 
-1.  From **Workstation** VM Desktop Tool Bar, click the Terminal icon to
-    open a Terminal window.
+1.  Use the **Activities** Icon to switch to the toolbar, then click the Terminal icon to open a Terminal window.
 
-    ![](./images/media/image8.png)
+    ![](./images/media/Toolbar_terminal_new.png)
 
 2.  Clone the GitHub repo that includes artifacts required for this lab
 

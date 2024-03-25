@@ -784,11 +784,11 @@ Let’s understand why the effort to move the application top Open Liberty requi
 
     **Note** that the number of development days to move the application to Open Liberty is 3.5 days, while moving to WebSphere Liberty is 0 day. Let’s find out why. 
 
-2.	Click on the `CustomerOrderServicesApp.ear` for **`Open Liberty`** to open its detail view. 
+4.	Click on the `CustomerOrderServicesApp.ear` for **`Open Liberty`** to open its detail view. 
 
     **Tip:** You may type “Customer” in the search field to filter on just the Customer Order Services app
 
-    ![](./images/media/image119.png)
+    ![](./images/media/image119_new.png)
 
 
 3.	Expand the **Complexity rules** to see the details of the issues

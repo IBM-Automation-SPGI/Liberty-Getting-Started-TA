@@ -556,7 +556,7 @@ ___
     <!-- LBH: Adjusted test and picture to Student path -->
     c.  Navigate to the location of the data collection file **Home > techzone > Student > appmod-pot-labfiles > labs > TransformationAdvisor** and select the **`AppSrv01-3.8.1.zip`** file. Then click the **`Open`** button on the page.
 
-    ![](./images/media/images29_new.png)
+    ![](./images/media/image29_new.png)
 
     d.  The **AppSrv01-3.8.1.zip** data collection file is now ready to be uploaded. Click the **`Upload`** button to continue.
 
@@ -567,7 +567,7 @@ ___
     Notice that the page shows “**All Java applications**” from the WebSphere Application Server profile named **AppSrv01-3.8.1**.
     
  
-    ![](./images/media/image_new_.png)
+    ![](./images/media/image31_new_.png)
 
     The following details are included in the `workspace summary` section at the top of the page:
 

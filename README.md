@@ -1162,7 +1162,7 @@ expedite the app deployment to OpenShift Platform.
         application and configuration files for deploying to a container
         environment.
  
-    ![](./images/media/image69_new.png)
+        ![](./images/media/image69_new.png)
 
 12. **Close** the editor when you finish reviewing the file. **DO NOT
     SAVE** any changes to the contents.

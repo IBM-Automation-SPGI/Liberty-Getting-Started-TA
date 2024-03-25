@@ -779,7 +779,8 @@ Let’s understand why the effort to move the application top Open Liberty requi
 2.	Scroll to the top and click on “All Java Applications”.
     ![](./images/media/TA_AllApps_new.png)
 
-Return to the “**All Java Applications**” page in TA
+3.	Scroll down to the Java applications and look for CustomerOrderServicesApp.ear. 
+    ![](./images/media/COS_Liberty_new.png)
 
     **Note** that the number of development days to move the application to Open Liberty is 3.5 days, while moving to WebSphere Liberty is 0 day. Let’s find out why. 
 

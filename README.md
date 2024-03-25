@@ -1261,12 +1261,11 @@ installed.
 
     **Note:** You will see a message stating the modresorts application is started.  
 
-    ![](./images/media/image73.png)
+    ![](./images/media/image73_new.png)
 
 
 7.  Run the modresorts application from the Web browser on the VM.
-    The context root for the application is `/resorts` and is defined in
-    the Open Liberty server.xml file.
+    The context root for the application is `/resorts` and is defined in the Open Liberty server.xml file.
 
         http://localhost:9080/resorts
 

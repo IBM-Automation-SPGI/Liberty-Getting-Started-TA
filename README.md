@@ -706,7 +706,7 @@ To do that, we need to drill into some of the details and reports.
 
     a.	Click on `CustomerOrderSrvicesApp.ear` for **`WebSphere Liberty`** to open its detail view
 
-    ![](./images/media/image109.png)
+    ![](./images/media/image109_new.png)
 
     b.	Expand the **`Complexity Rules`** for moving the application to WebSphere Liberty. 
 

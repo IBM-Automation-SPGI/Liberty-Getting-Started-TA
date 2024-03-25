@@ -693,7 +693,7 @@ You will learn why the different target environments result in varying degrees o
 
     - Moving the application to **Open Liberty** has a **MODERTATE** level of complexity. Code change is needed and part of code change can be automated. Requires 3.5 days of development costs to resolve 1 sever, 2 minor and 4 informational issues reported.
 
-    ![](./images/media/image108.png)
+    ![](./images/media/image108_new.png)
 
 
 ### 6.6.1.2 Examine CustomerOrderServicesApp.ear on WebSphere Liberty

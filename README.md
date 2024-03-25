@@ -972,17 +972,17 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
 
     This estimate is based on data from IBM Services engagements, which  includes migrating the application code, but does not encompass the  full scope of a migration project that would include server  configuration, testing, etc.
  
-    ![](./images/media/image42.png)
+    ![](./images/media/image42_new.png)
 
 6.  Expand the **`Issues and details`** section. You can see the only minor potential issue listed is for configuring CDI (Context Dependency Injection beans).
 
-    ![](./images/media/image43.png)
+    ![](./images/media/image43_new.png)
 
 7.  Next, scroll down to the bottom of the page and click the
     **`Technology Report`** link, this opens a new browser window to show
     the application Evaluation Report.
 
-    ![](./images/media/image44.png)
+    ![](./images/media/image44_new.png)
  
     The **Technology report** lists all java technologies the application  used and whether these technologies are supported by a specific  WebSphere platform from Liberty for Java on IBM Cloud to WebSphere  traditional for z/OS.
  

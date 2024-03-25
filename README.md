@@ -432,14 +432,14 @@ Now, let’s `simulate` the steps to run the data collector.
 
     The data collector command that would be executed is based on the  **domain** and **analysis type** selections you make in this section.
  
-    ![](./images/media/image19.png)
+    ![](./images/media/image19_new_.png)
 
 4.  Choose the **`IBM WebSphere`** Domain. Other domains include other
     JAVA EE runtimes.
 
     **Note:** The data collector tool command changes based on this selection.
  
-    ![](./images/media/image20.png)
+    ![](./images/media/image20_new.png)
 
 5.  Select the Analysis type of “**`Apps and Configuration`**”
 

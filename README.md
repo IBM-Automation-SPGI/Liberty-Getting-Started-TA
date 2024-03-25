@@ -1110,22 +1110,22 @@ expedite the app deployment to OpenShift Platform.
      The **modresorts10war_migrationBundle.zip** file will be downloaded to the **/home/techzone/Downloads** directory
  
 
-8.  Unzip the migration bundle artifacts to a new folder on the
-    Workstation VM
+8.  Unzip the migration bundle artifacts to a new folder on the Workstation VM
+    <!-- LBH: Changed path to Student -->
 
     a.  From a terminal window, run the following commands to unzip the migration bundle to a new directory named "**modresorts-bundle**":
 
-        mkdir /home/techzone/modresorts-bundle
+        mkdir /home/techzone/Student/modresorts-bundle
         
-        cd /home/techzone/modresorts-bundle
+        cd /home/techzone/Student/modresorts-bundle
         
-        cp ~/Downloads/modresorts10war.ear_migrationBundle.zip ~/modresorts-bundle
+        mv ~/Downloads/modresorts10war.ear_migrationBundle.zip .
         
-        unzip ~/modresorts-bundle/modresorts10war.ear_migrationBundle.zip
+        unzip modresorts10war.ear_migrationBundle.zip
         
         ls
 
-    ![](./images/media/image66.png)
+    ![](./images/media/image66_new.png)
 
 9.  View the **server.xml** file. DO NOT CHANGE THE FILE CONTENTS.
 

@@ -410,12 +410,13 @@ Now, let’s `simulate` the steps to run the data collector.
     <!-- LBH: Adjusted image to new TA -->
     ![](./images/media/TA_collector_new.png)
 
-2.  Extract the data collector utility using the following command:
+<!-- LBH: Adjusted next section to extract files to Student instead of Downloads: this makes housekeeping easier -->
     
-        tar xvfz transformationadvisor-Linux_Evaluation.tgz
+2.  Extract the data collector utility to the Student directory using the following command:
+    
+        tar xvfz transformationadvisor-Linux_Evaluation.tgz -C ~/Student
 
-    <!-- LBH: Adjusted the path to new TA -->
-    The data collector utility will be extracted to **/home/techzone/Downloads/transformationadvisor-3.9.0** directory.
+    The data collector utility will be extracted to **/home/techzone/Student/transformationadvisor-3.9.0** directory.
 
     ___
 
@@ -551,10 +552,11 @@ ___
     b.  From the Upload Data page, click the **`Drop or add file`** link
 
     ![](./images/media/image28.png)
+    
+    <!-- LBH: Adjusted test and picture to Student path -->
+    c.  Navigate to the location of the data collection file **Home > techzone > Student > appmod-pot-labfiles > labs > TransformationAdvisor** and select the **`AppSrv01-3.8.1.zip`** file. Then click the **`Open`** button on the page.
 
-    c.  Navigate to the location of the data collection file **Home > techzone > appmod-pot-labfiles > labs > TransformationAdvisor** and select the **`AppSrv01-3.8.1.zip`** file. Then click the **`Open`** button on the page.
-
-    ![](./images/media/image29.png)
+    ![](./images/media/TA-Collector_New.png)
 
     d.  The **AppSrv01-3.8.1.zip** data collection file is now ready to be uploaded. Click the **`Upload`** button to continue.
 

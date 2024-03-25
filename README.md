@@ -447,7 +447,7 @@ Now, let’s `simulate` the steps to run the data collector.
  
     The server configuration data is extremely helpful in Transformation Advisor to generate deployment artifacts in the migration bundle, which we will explore later in the lab.
  
-    ![](./images/media/image21.png)
+    ![](./images/media/image21_new.png)
 
 6.  Review, but **DO NOT EXECUTE** the data collector command shown below, which is based on the selected options.
 

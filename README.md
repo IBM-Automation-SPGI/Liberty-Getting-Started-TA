@@ -317,8 +317,7 @@ VM. Launch the Transformation Advisor tool using the steps below.
 5.  The **Transformation Advisor** application is started, right-click the application URL link and select **`Open Link`** to launch it in a web browser window. 
     <!-- LBH: Adjusted URL as it changed -->
     The URL is displayed in the output from the TA command: **http://rhel9-base.gym.lan:3000**
-    <!-- LBH: Updted picture -->
-    ![](./images/media/TA_install_new.png)
+    ![](./images/media/image10_new.png)
  
     This **Transformation Advisor** Home page is displayed in the Web Browser.
  

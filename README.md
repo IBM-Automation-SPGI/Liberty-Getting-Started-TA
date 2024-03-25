@@ -874,7 +874,7 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
 
 6.	The **server.xml** is displayed in the File preview window, click **`Show more`** to expand it.
 
-    ![](./images/media/TA_server_xml_preview.png)
+    ![](./images/media/TA_server_xml_preview_new.png)
  
 
 7.	Review the contents of the **server.xml** file.

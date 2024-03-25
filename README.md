@@ -606,7 +606,7 @@ view the application data analysis results that was collected in the previous se
 2.  Click on the **`Collections`** drop-down icon and view the
     collection name: “**admin.ibm.demo**”
 
-    ![](./images/media/image33.png)
+    ![](./images/media/image33_new.png)
  
     Transformation advisor analyzes all the **application code** and  **common code** that is shared across applications and provides an  estimated total cost for migrating the apps and common code in the  workspace.
  
@@ -618,7 +618,7 @@ view the application data analysis results that was collected in the previous se
     - WebSphere Liberty
     - WebSphere Traditional
 
-    ![](./images/media/image34.png)
+    ![](./images/media/image34_new.png)
  
     You can choose multiple migration targets and Transformation Advisor  will provide the workspace total cost effort for each of the selected targets.
  

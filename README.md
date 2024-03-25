@@ -728,7 +728,7 @@ To do that, we need to drill into some of the details and reports.
 
     d.	Click on the **`Analysis report`**, which will open the report in a new browser tab. 
 
-    ![](./images/media/image111.png)
+    ![](./images/media/image111_new.png)
 
     e.	On the **Detailed Migration Analysis Report**, click on the **`Information`** link under the LABEL column. This will take you directly to the critical issues in the report. 
 

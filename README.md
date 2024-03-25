@@ -732,7 +732,7 @@ To do that, we need to drill into some of the details and reports.
 
     e.	On the **Detailed Migration Analysis Report**, click on the **`Information`** link under the LABEL column. This will take you directly to the critical issues in the report. 
 
-    ![](./images/media/image112.png)
+    ![](./images/media/image112_new.png)
 
 
     f.	Click on **`Show rule help`** link to expand the help section for the **Java EE security** issue. 

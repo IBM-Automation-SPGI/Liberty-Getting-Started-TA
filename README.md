@@ -567,7 +567,7 @@ ___
     Notice that the page shows “**All Java applications**” from the WebSphere Application Server profile named **AppSrv01-3.8.1**.
     
  
-    ![](./images/media/image31.png)
+    ![](./images/media/image_new_.png)
 
     The following details are included in the `workspace summary` section at the top of the page:
 

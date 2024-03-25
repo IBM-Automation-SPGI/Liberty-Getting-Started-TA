@@ -283,7 +283,7 @@ and what the effort might be to get it there.
 The Transformation Advisor is installed locally on the **Workstation**
 VM. Launch the Transformation Advisor tool using the steps below.
 
-1.  Use the **Activities** Icon to switch to the toolbar, then click the Terminal icon to open a Terminal window.
+1.  Use the **Activities** Icon to switch to the toolbar, then click the **Terminal** icon to open a Terminal window.
 
     ![](./images/media/Toolbar_terminal_new.png)
 

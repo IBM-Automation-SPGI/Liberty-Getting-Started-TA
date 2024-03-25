@@ -190,6 +190,7 @@ The lab environment contains one Linux VMs.
    
 3. An alternative to using the noVNC Copy / Paste option, you may consider opening the lab guide in a web browser inside of the VM. Using this method, you can easily copy / paste text from the lab guide without having to use the noVNC clipboard. 
 
+<!-- LBH: Added description how to access toolbar -->
 4. Click on the **`Activities`** icon within the VM to switch between different windows or get access the tool bar.
     ![fit to window](./images/media/Activies_new.png)
 
@@ -284,39 +285,42 @@ The Transformation Advisor is installed locally on the **Workstation**
 VM. Launch the Transformation Advisor tool using the steps below.
 
 1.  Use the **Activities** Icon to switch to the toolbar, then click the **Terminal** icon to open a Terminal window.
-
+    <!-- LBH: Updated description how to access toolbar -->
     ![](./images/media/Toolbar_terminal_new.png)
 
 2.  Clone the GitHub repo that includes artifacts required for this lab
+    <!-- LBH: Adjusted lab to use Student folder instead of home to store content -->
 
-        cd /home/techzone
+        mkdir /home/techzone/Student
+
+        cd /home/techzone/Student
 
         git clone https://github.com/IBMTechSales/appmod-pot-labfiles
 
     Once completed, the local lab artifacts repo is cloned at the following directory on the desktop VM. 
     
-    > **/home/techzone/appmod-pot-labfiles**
+    > **/home/techzone/Student/appmod-pot-labfiles**
 
 3.  Launch the **Transformation Advisor** with commands:
+        <!-- LBH: Adjusted path as using new TA version -->
 
-        cd /home/techzone/transformation-advisor-local-3.8.1
+        cd /home/techzone/transformation-advisor-local-3.9.0
 
         ./launchTransformationAdvisor.sh
 
     Wait for Transformation Advisor to initialize and display the action menu list.
 
-4.  Type **`5`** and press **`Enter`** to start the **Transformation
-    Advisor**.
+4.  Type **`5`** and press **`Enter`** to start the **Transformation Advisor**.
 
     ![](./images/media/image9.png)
 
 5.  The **Transformation Advisor** application is started, right-click the application URL link and select **`Open Link`** to launch it in a web browser window. 
-
-    Th URL is displayed in the output from the TA command: **http://server0.gym.lan:3000**
-
-    ![](./images/media/image10.png)
+    <!-- LBH: Adjusted URL as it changed -->
+    The URL is displayed in the output from the TA command: **http://rhel9-base.gym.lan:3000**
+    <!-- LBH: Updted picture -->
+    ![](./images/media/TA_install_new.png)
  
-    This **Transformation Advisor** Home page is displayed in the Web  Browser.
+    This **Transformation Advisor** Home page is displayed in the Web Browser.
  
     ![](./images/media/image11.png)
  

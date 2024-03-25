@@ -1207,7 +1207,7 @@ installed.
     b.  Run the following commands to perform an archive installation of Open Liberty
 
         mkdir ~/Student/Liberty
-        unzip ~/Student/openliberty-webProfile10-23.0.0.12.zip -d ~/Student/Liberty
+        unzip ~/Student/openliberty-javaee8-23.0.0.12.zip -d ~/Student/Liberty
 
 
     c.  Open Liberty is installed to the **/home/techzone/Student/Liberty/wlp** directory.  Change to Open Liberty root directory.

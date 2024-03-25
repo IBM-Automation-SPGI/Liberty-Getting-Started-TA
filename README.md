@@ -1200,31 +1200,33 @@ installed.
 
 1.  Install Open Liberty on the VM
 
-    a.   From a Terminal window, run the following commands to perform an     archive installation of Open Liberty
+    a.   From a Terminal window, run the following commands to download the Open Liberty archive
 
-        mkdir ~/Liberty
+        wget https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.12/openliberty-webProfile10-23.0.0.12.zip  -P ~/Student
 
-        cd ~/Liberty
+    b.  Run the following commands to perform an archive installation of Open Liberty
 
-        unzip ~/appmod-pot-labfiles/labs/TransformationAdvisor/openliberty-webProfile8-21.0.0.12.zip -d ~/Liberty
+        mkdir ~/Student/Liberty
+        cd ~/Student/Liberty
+        unzip ~/Student/openliberty-webProfile10-23.0.0.12.zip -d ~/Student/Liberty
 
 
-    b.  Open Liberty is installed to the **/home/techzone/Liberty/wlp** directory.  Change to Open Liberty “**bin**” directory, which is where the Open Liberty binaries are located.
+    c.  Open Liberty is installed to the **/home/techzone/Liberty/wlp** directory.  Change to Open Liberty “**bin**” directory, which is where the Open Liberty binaries are located.
 
-        cd wlp/bin
+        cd wlp
 
 2.  Use the **`server`** command to create a new Open Liberty server named **`modresorts_server`**
 
-        ./server create modresorts_server
+        bin/server create modresorts_server
 
-    ![](./images/media/image70.png)
+    ![](./images/media/image70_new.png)
 
 3.  Use the **`server`** command to start the Open Liberty server named
     **`modresorts_server`**
 
-        ./server start modresorts_server
+        bin/server start modresorts_server
 
-    ![](./images/media/image71.png)
+    ![](./images/media/image71_new.png)
 
 4.  Open a new `Terminal` window and view the Open Liberty server log
     file named “messages.log”

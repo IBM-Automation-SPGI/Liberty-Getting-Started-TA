@@ -808,7 +808,7 @@ Let’s understand why the effort to move the application top Open Liberty requi
     These issues are not present when moving to WebSphere Liberty, as the APIs are included with WebSphere Liberty. 
     ___ 
 
-    ![](./images/media/TA_COS_UnifiedCodeIssue_new.png)
+    ![](./images/media/image121_new.png)
 
 <!-- LBH: Addes bullet about automated fix -->
 

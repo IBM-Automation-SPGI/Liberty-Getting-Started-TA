@@ -1379,7 +1379,7 @@ The `Containerfile` is a two-stage Containerfile:
 
         docker logs modresorts
 
-    ![](./images/media/image80.png)
+    ![](./images/media/image80_new.png)
 
 5.  Run the modresorts application from the Web Browser.
 

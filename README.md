@@ -959,12 +959,12 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
 
 4.  Click the **`modresorts-1_0_war.ear`** link targeting **Open Liberty** to expand its analysis results.
 
-    ![](./images/media/image104.png)
+    ![](./images/media/image104a_new.png)
  
 
     The first section in the detail analysis summary page is the  **Complexity rules section**. The overall complexity for the  application is **simple**, indicating that the application can be  directly moved to Open Liberty without any code change.
  
-    ![](./images/media/image106.png)
+    ![](./images/media/image106_new.png)
 
 5.  Scroll down to **`Complexity Rules`** section. You can see there is no
     code change required and no development cost, the estimate migration

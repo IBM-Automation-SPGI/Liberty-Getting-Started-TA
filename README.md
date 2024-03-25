@@ -1420,10 +1420,11 @@ The `Containerfile` is a two-stage Containerfile:
 
         docker images | grep modresorts
 
-8.  Finally **`remove`** the **`Student's`** folder.
+8.  Finally **`remove`** the **`Student's`** folder and the downloaded assets.
 
         cd ~
         rm -rf ~/Student
+        rm ~/Downloads/*
 
 
 ## Summary

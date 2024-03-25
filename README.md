@@ -1167,8 +1167,9 @@ expedite the app deployment to OpenShift Platform.
 12. **Close** the editor when you finish reviewing the file. **DO NOT
     SAVE** any changes to the contents.
     
-13. Finally, you need to add the executable file of the Modresorts application to the Target directory of the migration bundle.
-    To identify the target directory, find the placeholder file that has been generated, then copy the application war to the related directory. 
+13. Finally, you need to add the application archive of the Modresorts application to the target directory of the migration bundle.
+    To identify the target directory, find the placeholder file that has been added by Transformation Advisor to the migration bundle.
+    Then replace the placeholder file with the application war in the related directory. 
     
         find ~/Student/modresorts-bundle -name *.placeholder
         cp ~/Student/appmod-pot-labfiles/labs/TransformationAdvisor/modresorts-1.0.war ~/Student/modresorts-bundle/target

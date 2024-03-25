@@ -919,6 +919,7 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
         unzip -l customerorderservicesapp.ear_migrationBundle.zip
     
     ![](./images/media/COS_migrationBundle_new.png)
+    Next to the files mentioned before, the migration bundle contains sevarl other files for Kubernetes deployment, for kustomization as well as placeholder files for the application and the JDBC drivers.
 
 
 ###  6.6.2 Evaluate Mod Resorts application
@@ -929,15 +930,15 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
 
 1.	Return to the “All Java Applications” page in Transformation Advisor.
 
-    ![](./images/media/image101.png)
+    ![](./images/media/image101_new.png)
 
 2.	Select all three Migration targets from the menu
 
-    ![](./images/media/image102.png)
+    ![](./images/media/image102_new.png)
 
 3.	In the **"search"** field, type **`modresorts`** which will narrow the application list to only the Mod Resorts application for all three migration target. 
 
-    ![](./images/media/image103.png)
+    ![](./images/media/image103_new.png)
 
     In this example, if you want to move the **modresorts-1_0_war.ear** application to **Open Liberty**, the complexity level is **Simple**, which indicates that the application code does not need to be changed before it can be moved to Open Liberty. 
 
@@ -945,11 +946,11 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
 
     The estimated development effort is zero day because no code change is required.
 
-    ![](./images/media/image104.png)
+    ![](./images/media/image104_new.png)
 
     Notice that the modresorts application is also simple to migrate to the WebSphere Liberty and WebSphere traditional migration targets. 
 
-    ![](./images/media/image105.png)
+    ![](./images/media/image105_new.png)
 
     For this lab, you will focus on the modernization of `moderesorts-1.0_war.ear` to `Open Liberty`. 
 

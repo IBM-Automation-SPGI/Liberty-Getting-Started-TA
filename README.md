@@ -651,7 +651,7 @@ view the application data analysis results that was collected in the previous se
     - Application cost (in days)
     - Migration plan
 
-    ![](./images/media/image36.png)
+    ![](./images/media/image36_new.png)
 
     The following details are included in the summary table (this is the per-application view):
 

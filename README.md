@@ -998,14 +998,14 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
     </tbody>
     </table>
 
-    ![](./images/media/image45.png)
+    ![](./images/media/image45_new.png)
  
     As you can see from the report, the Mod Resorts application only uses  **Java Servlet** which is supported by all WebSphere editions.
 
 8. Go back to the Transformation Advisor page and click the **`Inventory
     Report`** link.
 
-    ![](./images/media/image52.png)
+    ![](./images/media/TA_Inventory_Report_new.png)
  
     The **Inventory Report** helps you examine what is in your application, including the number of modules, their relationships, and the technologies in those modules.
  

@@ -681,7 +681,7 @@ You will learn why the different target environments result in varying degrees o
 
     This filters the list of applications to only “CustomerOrderServicesApp.ear” on Open Liberty, WebSphere Liberty, and WebSphere Traditional. 
 
-    ![](./images/media/image107.png)
+    ![](./images/media/image107_new.png)
 
 2.	The first thing to notice is the number of issues and the Application Cost associated for the application for each of the three target environments 
 

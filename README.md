@@ -865,7 +865,7 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
 
 6.	The **server.xml** is displayed in the File preview window, click **`Show more`** to expand it.
 
-    ![](./images/media/server_xml_part1_new.png)
+    ![](./images/media/TA_server_xml_preview.png)
  
 
 7.	Review the contents of the **server.xml** file.
@@ -876,7 +876,7 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
 
     a.	The **Liberty features** that the application uses are configured. 
 
-    ![](./images/media/image133.png)
+    ![](./images/media/TA_server_xml_part1_new.png)
 
 
     b.	The **application endpoints** and **enterprise application module configuration** are configured. Notice that **variables ${ }** are used to simplify external configuration overrides and default values. 

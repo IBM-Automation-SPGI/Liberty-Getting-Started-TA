@@ -312,7 +312,7 @@ VM. Launch the Transformation Advisor tool using the steps below.
 
 4.  Type **`5`** and press **`Enter`** to start the **Transformation Advisor**.
 
-    ![](./images/media/image9.png)
+    ![](./images/media/image9_new.png)
 
 5.  The **Transformation Advisor** application is started, right-click the application URL link and select **`Open Link`** to launch it in a web browser window. 
     <!-- LBH: Adjusted URL as it changed -->
@@ -345,7 +345,7 @@ Transformation Advisor UI.
     
     b.  Enter the workspace name as **`Evaluation`**, then click the **`Create`** button.
 
-    ![](./images/media/image12.png)
+    ![](./images/media/image12_new.png)
 
     |                                          |                                                                                                                                                                                                                                                                            |
     | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

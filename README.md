@@ -1106,7 +1106,7 @@ expedite the app deployment to OpenShift Platform.
     ![](./images/media/image65_new.png)
     
     Accept the defaults and click on **Save**
-     ![](./images/media/image65_new.png)
+     ![](./images/media/image65a_new.png)
      The **modresorts10war_migrationBundle.zip** file will be downloaded to the **/home/techzone/Downloads** directory
  
 

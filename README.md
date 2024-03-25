@@ -856,8 +856,8 @@ Simply put, Transformation Advisor creates the server.xml file that contains the
     - **Containerfile:** Create the Docker image for the application
     - **application CR:** Custom Resource for the application to be deployed to OpenShift via the Open Liberty Operator
     - **secret.yaml:** Configuration file for database connection settings in OpenShift
-
-    ![](./images/media/image130.png)
+    <!-- LBH: Adjusted picture -->
+    ![](./images/media/TA_Migration_bundle_new.png)
 
 5.	Click to view the contents of the **`server.xml`** file.
 

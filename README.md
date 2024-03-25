@@ -1371,7 +1371,7 @@ The `Containerfile` is a two-stage Containerfile:
  
     Running “**docker ps -a**” lists all containers, including  containers that are stopped.
  
-    ![](./images/media/image79.png)
+    ![](./images/media/image79_new.png)
 
 
 4.  View the Open Liberty log in the “**modresorts**” container to

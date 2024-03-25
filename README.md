@@ -1406,8 +1406,7 @@ The `Containerfile` is a two-stage Containerfile:
 
     ![](./images/media/image75_new.png)
 
-6.  **`Stop`** and **`remove`** the container. Then check that the
-    container has been removed, by using the “**docker ps -a”** command
+6.  **`Stop`** and **`remove`** the container. Then check that the container has been removed, by using the “**docker ps -a”** command
 
         docker stop modresorts
         
@@ -1415,12 +1414,16 @@ The `Containerfile` is a two-stage Containerfile:
         
         docker ps -a | grep modresorts
 
-7.  **`Remove`** the modresorts container image. Then use the “**docker
-    images**” command to verify the image has been removed
+7.  **`Remove`** the modresorts container image. Then use the “**docker images**” command to verify the image has been removed
 
         docker rmi modresorts:1.0
 
         docker images | grep modresorts
+
+8.  Finally **`remove`** the **`Students`** folder.
+
+        cd ~
+        rm -rf ~/Student
 
 
 ## Summary

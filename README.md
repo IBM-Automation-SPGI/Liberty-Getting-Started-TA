@@ -774,7 +774,12 @@ In this section, we examine the application details for moving to "**Open Libert
 
 Let’s understand why the effort to move the application top Open Liberty requires more effort than moving to WebSphere Liberty. 
 
-1.	Return to the “**All Java Applications**” page in TA
+1.	Return to the browser tab that displays the **Application Details Page**.
+
+2.	Scroll to the top and click on “All Java Applications”.
+    ![](./images/media/TA_AllApps_new.png)
+
+Return to the “**All Java Applications**” page in TA
 
     **Note** that the number of development days to move the application to Open Liberty is 3.5 days, while moving to WebSphere Liberty is 0 day. Let’s find out why. 
 

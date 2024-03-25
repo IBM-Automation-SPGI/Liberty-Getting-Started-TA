@@ -1099,7 +1099,7 @@ expedite the app deployment to OpenShift Platform.
 3.  Click on the **`Migration plan`** link located next to the Mod Resorts application analysis for `Open Liberty`, which will display
     **`migration plan`** for modresorts for the Open Liberty target
 
-    ![](./images/media/image61.png)
+    ![](./images/media/image61_new.png)
 
 7.  Click the **`Download`** link to download the bundle of artifacts to the local filesystem on the Workstation VM.
 

@@ -407,7 +407,7 @@ Now, let’s `simulate` the steps to run the data collector.
 
     You can see the downloaded data collector utility file named  “**transformationadvisor-Linux\_Evaluation.tgz**”
     <!-- LBH: Adjusted image to new TA -->
-    ![](./images/media/TA-Collector_new.png)
+    ![](./images/media/TA-Collector_news.png)
 
 <!-- LBH: Adjusted next section to extract files to Student instead of Downloads: this makes housekeeping easier -->
     

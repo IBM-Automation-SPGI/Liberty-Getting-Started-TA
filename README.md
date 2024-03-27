@@ -319,7 +319,7 @@ VM. Launch the Transformation Advisor tool using the steps below.
     The URL is displayed in the output from the TA command: **http://rhel9-base.gym.lan:3000**
     ![](./images/media/image10_new.png)
  
-    This **Transformation Advisor** Home page is displayed in the Web Browser.
+    The **Transformation Advisor** home page is displayed in the Web Browser.
  
     ![](./images/media/image11.png)
  
@@ -1406,7 +1406,9 @@ The `Containerfile` is a two-stage Containerfile:
 
     ![](./images/media/image75_new.png)
 
-6.  **`Stop`** and **`remove`** the container. Then check that the container has been removed, by using the “**docker ps -a”** command
+## 10. Cleanup
+
+1.  **`Stop`** and **`remove`** the container. Then check that the container has been removed, by using the “**docker ps -a”** command
 
         docker stop modresorts
         
@@ -1414,17 +1416,25 @@ The `Containerfile` is a two-stage Containerfile:
         
         docker ps -a | grep modresorts
 
-7.  **`Remove`** the modresorts container image. Then use the “**docker images**” command to verify the image has been removed
+2.  **`Remove`** the modresorts container image. Then use the “**docker images**” command to verify the image has been removed
 
         docker rmi modresorts:1.0
 
         docker images | grep modresorts
 
-8.  Finally **`remove`** the **`Student's`** folder and the downloaded assets.
+3.  Finally **`remove`** the **`Student's`** folder and the downloaded assets.
 
         cd ~
         rm -rf ~/Student
         rm ~/Downloads/*
+
+4. Stop Transformation Advisor
+
+        cd /home/techzone/transformation-advisor-local-3.9.0
+        scripts/stopTransformationAdvisor.sh
+
+5. Close the browser and all terminal windows
+
 
 
 ## Summary

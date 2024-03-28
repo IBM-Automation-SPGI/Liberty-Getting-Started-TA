@@ -458,7 +458,7 @@ Now, let’s `simulate` the steps to run the data collector.
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/image23.png" style="width:0.60625in;height:0.60625in" alt="sign-caution" /></kbd></td>
+<td><kbd><img src="./images/media/warn.png" style="width:0.60625in;height:0.60625in" alt="sign-caution" /></kbd></td>
 <td><p><strong>Important:</strong></p>
 <p>This section is for illustrative purposes only.</p>
 <p>DO NOT RUN THE COMMANDS shown in this section!</p></td>
@@ -1230,7 +1230,7 @@ installed.
     <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/image23.png" style="width:0.80625in;height:0.60625in" alt="sign-caution" /></kbd></td>
+    <td><kbd><img src="./images/media/warn.png" style="width:0.80625in;height:0.60625in" alt="sign-caution" /></kbd></td>
     <td><p><strong>Tip!</strong></p>
     <p>If the application does not respond when clicking on the “WHERE TO?” menu, increase the window size of the Web browser.</p>
     </td>
@@ -1342,7 +1342,7 @@ The `Containerfile` is a two-stage Containerfile:
     <table> 
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/image23.png" style="width:0.90625in;height:0.60625in" alt="sign-caution" /></kbd></td>
+    <td><kbd><img src="./images/media/warn.png" style="width:0.90625in;height:0.60625in" alt="sign-caution" /></kbd></td>
     <td><p><strong>Tip!</strong></p>
     <p>If the application does not respond when clicking on the “WHERE TO?” menu, increase the window size of the browser.</p>
     <p>This appears to be a glitch with the application</p></td>

@@ -115,7 +115,7 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 
 The lab environment contains one Linux VM. 
 
-![](./images/media/env-list_new.png)
+<kbd>![](./images/media/env-list_new.png)</kbd>
 
 
 <br/>
@@ -130,18 +130,18 @@ The lab environment contains one Linux VM.
     
     c. Click on the **`vnc.html`** link to open the lab environment through the **noVNC** interface. 
     
-    ![](./images/media/vnc-link.png)
+    <kbd>![](./images/media/vnc-link.png)</kbd>
     
     d. Click the **`Connect`** button 
     
-      ![](./images/media/vnc-connect.png)
+      <kbd>![](./images/media/vnc-connect.png)</kbd>
 
 
     e. Enter the password as:  **`passw0rd`**. Then click the **`Send Credentials`** button to access the lab environment. 
 
     > Note: That is a numeric zero in passw0rd  
 
-      ![](./images/media/vnc-password.png)
+      <kbd>![](./images/media/vnc-password.png)</kbd>
 
 	 
 	 <br>
@@ -158,7 +158,7 @@ The lab environment contains one Linux VM.
 
 	 <br>
  
-     ![student vm screen](./images/media/techzone-user-pw.png)
+     <kbd>![student vm screen](./images/media/techzone-user-pw.png)</kbd>
 	 
 	 <br>
 
@@ -168,11 +168,11 @@ The lab environment contains one Linux VM.
 
     a. From the environemnt VM, click on the **twisty** on the noNC control pane to open the menu.  
 
-    ![fit to window](./images/media/z-twisty.png)
+    <kbd>![fit to window](./images/media/z-twisty.png)</kbd>
 
     b. To increase the visible area, click on `Settings > Scaling Mode` and set the value to `Remote Resizing`
       
-     ![fit to window](./images/media/z-remote-resize.png)
+     <kbd>![fit to window](./images/media/z-remote-resize.png)</kbd>
 
 
 2.  You can copy / paste text from the lab guide into the lab environment using the clipboard in the noVNC viewer. 
@@ -181,7 +181,7 @@ The lab environment contains one Linux VM.
     
     b. Click the **`Clipboard`** icon and **`paste`** the text into the noVNC clipboard
 
-    ![fit to window](./images/media/paste.png)
+    <kbd>![fit to window](./images/media/paste.png)</kbd>
     
     c. Paste the text into the VM, such as to a terminal window, browser window, etc. 
 
@@ -192,7 +192,7 @@ The lab environment contains one Linux VM.
 
 <!-- LBH: Added description how to access toolbar -->
 4. Click on the **`Activities`** icon within the VM to switch between different windows or get access the tool bar.
-    ![fit to window](./images/media/Activies_new.png)
+    <kbd>![fit to window](./images/media/Activies_new.png)</kbd>
 
 
 
@@ -264,7 +264,7 @@ complexity of each application, and detailed analysis of the overall
 effort and complexity of moving each application to Liberty and
 container-based cloud environments.
 
-![](./images/media/image2.png)
+<kbd>![](./images/media/image2.png)</kbd>
 
 ___
 
@@ -286,7 +286,7 @@ VM. Launch the Transformation Advisor tool using the steps below.
 
 1.  Use the **Activities** Icon to switch to the toolbar, then click the **Terminal** icon to open a Terminal window.
     <!-- LBH: Updated description how to access toolbar -->
-    ![](./images/media/Toolbar_terminal_new.png)
+    <kbd>![](./images/media/Toolbar_terminal_new.png)</kbd>
 
 2.  Clone the GitHub repo that includes artifacts required for this lab
     <!-- LBH: Adjusted lab to use Student folder instead of home to store content -->
@@ -312,16 +312,16 @@ VM. Launch the Transformation Advisor tool using the steps below.
 
 4.  Type **`5`** and press **`Enter`** to start the **Transformation Advisor**.
 
-    ![](./images/media/image9_new.png)
+    <kbd>![](./images/media/image9_new.png)</kbd>
 
 5.  The **Transformation Advisor** application is started, right-click the application URL link and select **`Open Link`** to launch it in a web browser window. 
     <!-- LBH: Adjusted URL as it changed -->
     The URL is displayed in the output from the TA command: **http://rhel9-base.gym.lan:3000**
-    ![](./images/media/image10_new.png)
+    <kbd>![](./images/media/image10_new.png)</kbd>
  
     The **Transformation Advisor** home page is displayed in the Web Browser.
  
-    ![](./images/media/image11.png)
+    <kbd>![](./images/media/image11.png)</kbd>
  
     In the next section, you will use the Transformation Advisor UI to  download the **data collector utility** for the environment that the  WebSphere Application Server would be running, such as Windows or  Linux.
 
@@ -341,15 +341,15 @@ Transformation Advisor UI.
     
     a.  Click the **`Create New`** button.
     
-    ![](./images/media/TA_create_new.png)
+    <kbd>![](./images/media/TA_create_new.png)</kbd>
     
     b.  Enter the workspace name as **`Evaluation`**, then click the **`Create`** button.
 
-    ![](./images/media/image12_new.png)
+    <kbd>![](./images/media/image12_new.png)</kbd>
 
     |                                          |                                                                                                                                                                                                                                                                            |
     | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ![sign-info](./images/media/image13.png) | A workspace is a designated area that will house the migration recommendations provided by **Transformation Advisor** from your application server environment. You can name and organize these however you want, whether it’s by business application, location, or teams |
+    | <kbd>![sign-info](./images/media/image13.png)</kbd> | A workspace is a designated area that will house the migration recommendations provided by **Transformation Advisor** from your application server environment. You can name and organize these however you want, whether it’s by business application, location, or teams |
 
     Once the Workspace is created, you will have options to either  **download** the Data Collector utility or **upload** existing data  file.
  

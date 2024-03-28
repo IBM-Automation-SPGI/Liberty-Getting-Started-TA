@@ -607,7 +607,7 @@ view the application data analysis results that was collected in the previous se
 
     |                                          |                                                                                                                                                                                                                                                                           |
     | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ![sign-info](./images/media/info.png) | Depending on the applications, you may find that the effort to migrate to Open Liberty requires more effort that migrating to WebSphere Liberty. This is because Open Liberty does not include all the Java EE API specifications that are included in WebSphere Liberty. |
+    | <kbd>![sign-info](./images/media/info.png)</kbd> | Depending on the applications, you may find that the effort to migrate to Open Liberty requires more effort that migrating to WebSphere Liberty. This is because Open Liberty does not include all the Java EE API specifications that are included in WebSphere Liberty. |
 
 3.  From the **Migration targets** section select all **three** migration targets and notice the different development costs associated with migration all 5 applications in the workspace to the various migration target environments.
 

@@ -353,7 +353,7 @@ Transformation Advisor UI.
 
     Once the Workspace is created, you will have options to either  **download** the Data Collector utility or **upload** existing data  file.
  
-    ![](./images/media/image14.png)
+    <kbd>![](./images/media/image14.png)</kbd>
  
     In this lab, we are going to perform the following steps:
 
@@ -369,7 +369,7 @@ Transformation Advisor UI.
 
 2.  Click the **`Download`** button to download the data collector for Linux
 
-    ![](./images/media/image15.png)
+    <kbd>![](./images/media/image15.png)</kbd>
 
 3.  In the Download page, you can download data collector utility based
     on your source operating system for your WebSphere environment. It
@@ -379,27 +379,23 @@ Transformation Advisor UI.
     
     a.  Since the lab VM is a Linux OS, click **`Download Linux`** to get the utility.
 
-    ![A screenshot of a social media post Description automatically  generated](./images/media/image16.png)
+    <kbd>![A screenshot of a social media post Description automatically  generated](./images/media/image16.png)</kbd>
     <!-- LBH: Adjusted text as browser requests to clikd save -->
     Keep the defaults and click on Save. The zipped Data Collector utility file will be saved in  **/home/techzone/Downloads** directory of the **Workstation** VM.
 
-    ![](./images/media/image17_new.png) 
+    <kbd>![](./images/media/image17_new.png)</kbd> 
  
  
     Continue to the next section of the lab to simulate running the data  collector utility.
 
 ### 6.4 Simulate running the Transformation Advisor Data Collector utility
 
-After downloading the zipped Data Collector utility, it needs to be
-unpacked and run against a WebSphere Application server (WAS) to collect
-all the data of deployed applications and their configuration from the
-WAS server.
+After downloading the zipped Data Collector utility, it needs to be unpacked and run against a WebSphere Application server (WAS) to collect
+all the data of deployed applications and their configuration from the WAS server.
 
 Now, let’s `simulate` the steps to run the data collector.
 
-1.  Go back to the `Terminal` window and navigate the
-    **/home/techzone/Downloads** directory and view its contents with
-    commands:
+1.  Go back to the `Terminal` window and navigate the **/home/techzone/Downloads** directory and view its contents with commands:
 
         cd /home/techzone/Downloads/
 
@@ -407,7 +403,7 @@ Now, let’s `simulate` the steps to run the data collector.
 
     You can see the downloaded data collector utility file named  “**transformationadvisor-Linux\_Evaluation.tgz**”
     <!-- LBH: Adjusted image to new TA -->
-    ![](./images/media/TA-Collector_new.png)
+    <kbd>![](./images/media/TA-Collector_new.png)</kbd>
 
 <!-- LBH: Adjusted next section to extract files to Student instead of Downloads: this makes housekeeping easier -->
     
@@ -431,14 +427,13 @@ Now, let’s `simulate` the steps to run the data collector.
 
     The data collector command that would be executed is based on the  **domain** and **analysis type** selections you make in this section.
  
-    ![](./images/media/image19_new_.png)
+    <kbd>![](./images/media/image19_new_.png)</kbd>
 
-4.  Choose the **`IBM WebSphere`** Domain. Other domains include other
-    JAVA EE runtimes.
+4.  Choose the **`IBM WebSphere`** Domain. Other domains include other JAVA EE runtimes.
 
     **Note:** The data collector tool command changes based on this selection.
  
-    ![](./images/media/image20_new.png)
+    <kbd>![](./images/media/image20_new.png)</kbd>
 
 5.  Select the Analysis type of “**`Apps and Configuration`**”
 
@@ -446,11 +441,11 @@ Now, let’s `simulate` the steps to run the data collector.
  
     The server configuration data is extremely helpful in Transformation Advisor to generate deployment artifacts in the migration bundle, which we will explore later in the lab.
  
-    ![](./images/media/image21_new.png)
+    <kbd>![](./images/media/image21_new.png)</kbd>
 
 6.  Review, but **DO NOT EXECUTE** the data collector command shown below, which is based on the selected options.
 
-    ![](./images/media/image22.png)
+    <kbd>![](./images/media/image22.png)</kbd>
 
     ___
     
@@ -464,7 +459,7 @@ Now, let’s `simulate` the steps to run the data collector.
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="./images/media/image23.png" style="width:0.60625in;height:0.60625in" alt="sign-caution" /></td>
+<td><kbd><img src="./images/media/image23.png" style="width:0.60625in;height:0.60625in" alt="sign-caution" /></kbd></td>
 <td><p><strong>Important:</strong></p>
 <p>This section is for illustrative purposes only.</p>
 <p>DO NOT RUN THE COMMANDS shown in this section!</p></td>
@@ -472,19 +467,15 @@ Now, let’s `simulate` the steps to run the data collector.
 </tbody>
 </table>
 
-If the WebSphere Application Server and Transformation Advisor has
-connectivity, the data collector could be run as follows.
+If the WebSphere Application Server and Transformation Advisor has connectivity, the data collector could be run as follows.
 
-1.  Example of the **Data Collector** utility command to start collect
-    the deployed applications information on the WebSphere Application
-    server.
+1.  Example of the **Data Collector** utility command to start collect the deployed applications information on the WebSphere Application server.
 
     **Again, DO NOT EXECUTE the following command**
 
         ./bin/transformationadvisor -w <WEBSPHERE_HOME_DIR> -p <PROFILE_NAME>
 
-2.  Type **1** to accept the license agreement and press **Enter**, as
-    illustrated below. 
+2.  Type **1** to accept the license agreement and press **Enter**, as illustrated below. 
 
     **Again, for reference only, DO NOT EXECUTE the commands**
 
@@ -495,7 +486,7 @@ connectivity, the data collector could be run as follows.
 
     **Again, for reference only!**
  
-    ![](./images/media/image25.png)
+    <kbd>![](./images/media/image25.png)</kbd>
 
     ___
     
@@ -518,55 +509,47 @@ connectivity, the data collector could be run as follows.
 
 ### 6.5 Upload the data collection into Transformation Advisor
 
-In this section, you will upload the data collection zip file
-“**AppSrv01.zip**” from the WebSphere environment for analysis.
+In this section, you will upload the data collection zip file “**AppSrv01.zip**” from the WebSphere environment for analysis.
 
-Typically, before you can upload the data collector zip files, you will
-need to download the appropriate data collector for your target
-environments operation environment, such as Linux, Windows, etc.
+Typically, before you can upload the data collector zip files, you will need to download the appropriate data collector for your target environments operation environment, such as Linux, Windows, etc.
 
-Additionally, you would run the data collector in the target environment
-to collect the data for your applications. Then, you can import the
-collection data into Transformation Advisor for analysis.
+Additionally, you would run the data collector in the target environment to collect the data for your applications. Then, you can import the collection data into Transformation Advisor for analysis.
 
 ___
 
-**Tip:** As noted in the previous section, the data collection steps
-have already been done, and the resulting **`AppSrv01-3.8.1.zip`** file is
-provided for you in the lab environment.
+**Tip:** As noted in the previous section, the data collection steps have already been done, and the resulting **`AppSrv01-3.8.1.zip`** file is provided for you in the lab environment.
 ___
 
-1.  Go back to the Transformation Advisor page in the web browser, click
-    the **`Workload type`** link to go to the Recommendations page.
+1.  Go back to the Transformation Advisor page in the web browser, click the **`Workload type`** link to go to the Recommendations page.
 
-    ![](./images/media/image26.png)
+    <kbd>![](./images/media/image26.png)</kbd>
 
 2.  From the **Evaluation** workspace, upload the **`AppSrv01-3.8.1.zip`** data collection file.
 
 
     a.  Click the **`Upload`** button to upload a data collection file.
 
-    ![](./images/media/image27.png)
+    <kbd>![](./images/media/image27.png)</kbd>
 
     b.  From the Upload Data page, click the **`Drop or add file`** link
 
-    ![](./images/media/image28.png)
+    <kbd>![](./images/media/image28.png)</kbd>
     
     <!-- LBH: Adjusted test and picture to Student path -->
     c.  Navigate to the location of the data collection file **Home > techzone > Student > appmod-pot-labfiles > labs > TransformationAdvisor** and select the **`AppSrv01-3.8.1.zip`** file. Then click the **`Open`** button on the page.
 
-    ![](./images/media/image29_new.png)
+    <kbd>![](./images/media/image29_new.png)</kbd>
 
     d.  The **AppSrv01-3.8.1.zip** data collection file is now ready to be uploaded. Click the **`Upload`** button to continue.
 
-    ![](./images/media/image30_new.png)
+    <kbd>![](./images/media/image30_new.png)</kbd>
  
     Once the data collection has been uploaded to Transformation Advisor, you are redirected back to the TA Recommendations screen.
  
     Notice that the page shows “**All Java applications**” from the WebSphere Application Server profile named **AppSrv01-3.8.1**.
     
  
-    ![](./images/media/image31_new_.png)
+    <kbd>![](./images/media/image31_new_.png)</kbd>
 
     The following details are included in the `workspace summary` section at the top of the page:
 
@@ -593,7 +576,7 @@ view the application data analysis results that was collected in the previous se
 1.  From the “**All Java applications”** page, you can see there was a
     total of 5 applications analyzed from the WAS server.
 
-    ![](./images/media/image32_new.png)
+    <kbd>![](./images/media/image32_new.png)</kbd>
  
     When data is uploaded, Transformation Advisor automatically detects the **host machine** the data came from, meaning, where the WebSphere
  application server apps were running. TA creates a corresponding **collection** and adds the applications there.

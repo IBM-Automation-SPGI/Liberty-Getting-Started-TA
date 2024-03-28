@@ -113,9 +113,9 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 
 <https://TBD-to-the-reservation-link>
 
-The lab environment contains one Linux VM. 
+The lab environment contains one (1) Linux VM, named Workstation.
 
-<kbd>![](./images/media/env-list_new.png)</kbd>
+<kbd>![](./images/media/workstation.png)</kbd>
 
 
 <br/>

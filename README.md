@@ -332,8 +332,7 @@ Collector utility that would run on a WebSphere Application Server.
 
 To evaluate on-premises Java applications, you need to run
 **Transformation Advisor Data Collector utility** against the
-Application server environment. It will extract application information
-from the environment. The utility can be downloaded from the
+Application server environment. It will extract application information from the environment. The utility can be downloaded from the
 Transformation Advisor UI.
 
 1.  From the Transformation Advisor Home page, create a **new
@@ -349,7 +348,7 @@ Transformation Advisor UI.
 
     |                                          |                                                                                                                                                                                                                                                                            |
     | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | <kbd>![sign-info](./images/media/image13.png)</kbd> | A workspace is a designated area that will house the migration recommendations provided by **Transformation Advisor** from your application server environment. You can name and organize these however you want, whether it’s by business application, location, or teams |
+    | <kbd>![sign-info](./images/media/info.png)</kbd> | A workspace is a designated area that will house the migration recommendations provided by **Transformation Advisor** from your application server environment. You can name and organize these however you want, whether it’s by business application, location, or teams |
 
     Once the Workspace is created, you will have options to either  **download** the Data Collector utility or **upload** existing data  file.
  
@@ -608,7 +607,7 @@ view the application data analysis results that was collected in the previous se
 
     |                                          |                                                                                                                                                                                                                                                                           |
     | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ![sign-info](./images/media/image13.png) | Depending on the applications, you may find that the effort to migrate to Open Liberty requires more effort that migrating to WebSphere Liberty. This is because Open Liberty does not include all the Java EE API specifications that are included in WebSphere Liberty. |
+    | ![sign-info](./images/media/info.png) | Depending on the applications, you may find that the effort to migrate to Open Liberty requires more effort that migrating to WebSphere Liberty. This is because Open Liberty does not include all the Java EE API specifications that are included in WebSphere Liberty. |
 
 3.  From the **Migration targets** section select all **three** migration targets and notice the different development costs associated with migration all 5 applications in the workspace to the various migration target environments.
 
@@ -969,7 +968,7 @@ In this section you will review the analysis results for the **modresorts-1_0_wa
     <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/image13.png" style="width:1.73958in;height:0.64583in" alt="sign-info" /></kbd></td>
+    <td><kbd><img src="./images/media/info.png" style="width:1.73958in;height:0.64583in" alt="sign-info" /></kbd></td>
     <td><p><strong>TIP:</strong></p>
     <p>If the complexity of migrating to the target environment is “<strong>Complex</strong>” , it means that some APIs are not available in the target runtime and application will have to be rewritten to use different APIs.</p></td>
     </tr>

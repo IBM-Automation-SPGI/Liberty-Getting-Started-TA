@@ -61,7 +61,7 @@ market.
 As shown in the image below, your company has several web applications
 deployed to WebSphere Application Server (WAS) environment.
 
-![](./images/media/image2.png)
+<kbd>![](./images/media/image2.png)</kbd>
 
 Your company wants to move these applications to the modern WebSphere
 Liberty server on a container-based cloud. However, you are not sure how

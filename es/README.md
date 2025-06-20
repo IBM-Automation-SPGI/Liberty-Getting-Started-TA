@@ -2,7 +2,7 @@
 
 ## Recopilación de datos, evaluaciones y aceleradores de implementación
 
-![banner](./images/media/banner1.jpeg)
+![banner](./../images/media/banner1.jpeg)
 
 **Última actualización:** marzo de 2024
 
@@ -38,7 +38,7 @@ Además, la herramienta recomienda la edición más adecuada de IBM WebSphere Ap
 
 Como se muestra en la imagen a continuación, su empresa tiene varias aplicaciones web implementadas en el entorno de WebSphere Application Server (WAS).
 
-<kbd><img src="./images/media/image2.png" alt=""></kbd>
+<kbd><img src="./../images/media/image2.png" alt=""></kbd>
 
 Su empresa desea migrar estas aplicaciones al servidor WebSphere Liberty moderno en una nube basada en contenedores. Sin embargo, no está seguro del esfuerzo que requerirá el proceso de migración.
 
@@ -78,7 +78,7 @@ De lo contrario, deberá reservar un entorno para el laboratorio. Puede obtenerl
 
 El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Workstation.
 
-<kbd><img src="./images/media/workstation.png" alt=""></kbd>
+<kbd><img src="./../images/media/workstation.png" alt=""></kbd>
 
 <br>
 
@@ -92,17 +92,17 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     c. Haga clic en el enlace **`vnc.html`** para abrir el entorno de laboratorio a través de la interfaz **noVNC** .
 
-    <kbd><img src="./images/media/vnc-link.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-link.png" alt=""></kbd>
 
     d. Haga clic en el botón **`Connect`**
 
-    <kbd><img src="./images/media/vnc-connect.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-connect.png" alt=""></kbd>
 
     e. Ingrese la contraseña: **`IBMDem0s!`** Luego, haga clic en el botón **`Send Credentials`** para acceder al entorno de laboratorio.
 
     > Nota: ¡Eso es un cero numérico en IBMDem0s!
 
-    <kbd><img src="./images/media/vnc-password.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-password.png" alt=""></kbd>
 
      <br>
     
@@ -120,7 +120,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
      <br>
 
 
-    <kbd><img src="./images/media/techzone-user-pw.png" alt="pantalla de vm del estudiante"></kbd>
+    <kbd><img src="./../images/media/techzone-user-pw.png" alt="pantalla de vm del estudiante"></kbd>
 
      <br>
     
@@ -131,11 +131,11 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     a. Desde la máquina virtual del entorno, haga clic en el **icono de giro** en el panel de control noNC para abrir el menú.
 
-    <kbd><img src="./images/media/z-twisty.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/z-twisty.png" alt="ajustar a la ventana"></kbd>
 
     b. Para aumentar el área visible, haga clic en `Settings > Scaling Mode` y configure el valor en `Remote Resizing`
 
-    <kbd><img src="./images/media/z-remote-resize.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/z-remote-resize.png" alt="ajustar a la ventana"></kbd>
 
 2. Puede copiar/pegar texto de la guía de laboratorio en el entorno de laboratorio utilizando el portapapeles en el visor noVNC.
 
@@ -143,7 +143,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     b. Haga clic en el icono **`Clipboard`** y **`paste`** el texto en el portapapeles de noVNC.
 
-    <kbd><img src="./images/media/paste.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/paste.png" alt="ajustar a la ventana"></kbd>
 
     c. Pegue el texto en la máquina virtual, como en una ventana de terminal, una ventana del navegador, etc.
 
@@ -153,7 +153,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
 <!-- LBH: Added description how to access toolbar -->
 
-1. Haga clic en el ícono **`Activities`** dentro de la máquina virtual para cambiar entre diferentes ventanas u obtener acceso a la barra de herramientas. <kbd></kbd>![ajustar a la ventana](./images/media/Activies_new.png)
+1. Haga clic en el ícono **`Activities`** dentro de la máquina virtual para cambiar entre diferentes ventanas u obtener acceso a la barra de herramientas. <kbd></kbd>![ajustar a la ventana](./../images/media/Activies_new.png)
 
      <br>
     
@@ -194,7 +194,7 @@ Simulará el proceso de recopilación de datos. Sin embargo, no ejecutará el re
 
 Como se ilustra a continuación, Transformation Advisor recopilará los datos de las siguientes cinco aplicaciones. Durante el análisis, obtendrá información importante sobre ellas, las tecnologías JEE utilizadas, la complejidad relativa de cada aplicación y un análisis detallado del esfuerzo y la complejidad general de migrar cada aplicación a Liberty y a entornos de nube basados en contenedores.
 
-<kbd><img src="./images/media/image2.png" alt=""></kbd>
+<kbd><img src="./../images/media/image2.png" alt=""></kbd>
 
 ---
 
@@ -242,11 +242,11 @@ El Asesor de Transformación se instala localmente en la máquina virtual **de l
 
     <comment></comment>
 
-     La URL se muestra en la salida del comando TA: **http://rhel9-base.gym.lan:3000** <kbd></kbd>![](./images/media/image10_new.png)
+     La URL se muestra en la salida del comando TA: **http://rhel9-base.gym.lan:3000** <kbd></kbd>![](./../images/media/image10_new.png)
 
      La página de inicio **de Transformation Advisor** se muestra en el navegador web.
 
-    <kbd></kbd>![](./images/media/image11.png)
+    <kbd></kbd>![](./../images/media/image11.png)
 
     En la siguiente sección, utilizará la interfaz de usuario de Transformation Advisor para descargar la **utilidad de recopilación de datos** para el entorno en el que se ejecutaría WebSphere Application Server, como Windows o Linux.
 
@@ -260,19 +260,19 @@ Para evaluar aplicaciones Java locales, debe ejecutar **la utilidad Recopilador 
 
     a. Haga clic en el botón **`Create New`** .
 
-    <kbd><img src="./images/media/TA_create_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_create_new.png" alt=""></kbd>
 
     b. Ingrese el nombre del espacio de trabajo como **`Evaluation`** y luego haga clic en el botón **`Create`** .
 
-    <kbd><img src="./images/media/image12_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image12_new.png" alt=""></kbd>
 
     |                                                                                      |                                                                                                                                                                                                                                                                                           |
     |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | <kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd> | Un espacio de trabajo es un área designada que albergará las recomendaciones de migración proporcionadas por **Transformation Advisor** desde su entorno de servidor de aplicaciones. Puede nombrarlas y organizarlas como desee, ya sea por aplicación empresarial, ubicación o equipos. |
+    | <kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd> | Un espacio de trabajo es un área designada que albergará las recomendaciones de migración proporcionadas por **Transformation Advisor** desde su entorno de servidor de aplicaciones. Puede nombrarlas y organizarlas como desee, ya sea por aplicación empresarial, ubicación o equipos. |
 
     Una vez creado el espacio de trabajo, tendrá opciones para **descargar** la utilidad Recopilador de datos o **cargar** un archivo de datos existente.
 
-    <kbd><img src="./images/media/image14.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image14.png" alt=""></kbd>
 
     En este laboratorio, realizaremos los siguientes pasos:
 
@@ -286,19 +286,19 @@ Para evaluar aplicaciones Java locales, debe ejecutar **la utilidad Recopilador 
 
 2. Haga clic en el botón **`Download`** para descargar el recopilador de datos para Linux
 
-    <kbd><img src="./images/media/image15.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image15.png" alt=""></kbd>
 
 3. En la página de descargas, puede descargar la utilidad de recopilación de datos según el sistema operativo de origen para su entorno WebSphere. También muestra cómo usar la utilidad de línea de comandos para recopilar datos de aplicaciones y configuración de servidores WebSphere, WebLogic y Tomcat.
 
     a. Dado que la máquina virtual del laboratorio es un sistema operativo Linux, haga clic en **`Download Linux`** para obtener la utilidad.
 
-    <kbd><img src="./images/media/image16.png" alt="Una captura de pantalla de una publicación en redes sociales Descripción generada automáticamente"></kbd>
+    <kbd><img src="./../images/media/image16.png" alt="Una captura de pantalla de una publicación en redes sociales Descripción generada automáticamente"></kbd>
 
     <!-- LBH: Adjusted text as browser requests to clikd save -->
 
     Mantenga los valores predeterminados y haga clic en Guardar. El archivo comprimido de la utilidad Data Collector se guardará en el directorio **/home/techzone/Downloads** de la máquina virtual **de la estación de trabajo** .
 
-    <kbd><img src="./images/media/image17_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image17_new.png" alt=""></kbd>
 
     Continúe con la siguiente sección del laboratorio para simular la ejecución de la utilidad del recopilador de datos.
 
@@ -320,7 +320,7 @@ Ahora, `simulate` los pasos para ejecutar el recopilador de datos.
 
     <!-- LBH: Adjusted image to new TA -->
 
-    <kbd><img src="./images/media/TA-Collector_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA-Collector_new.png" alt=""></kbd>
 
 <!-- LBH: Adjusted next section to extract files to Student instead of Downloads: this makes housekeeping easier -->
 
@@ -344,13 +344,13 @@ Ahora, `simulate` los pasos para ejecutar el recopilador de datos.
 
     El comando del recopilador de datos que se ejecutará se basa en las selecciones **de dominio** y **tipo de análisis** que realice en esta sección.
 
-    <kbd><img src="./images/media/image19_new_.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image19_new_.png" alt=""></kbd>
 
 3. Seleccione el dominio **`IBM WebSphere`** . Otros dominios incluyen otros entornos de ejecución de JAVA EE.
 
     **Nota:** El comando de la herramienta recopiladora de datos cambia según esta selección.
 
-    <kbd><img src="./images/media/image20_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image20_new.png" alt=""></kbd>
 
 4. Seleccione el tipo de análisis de “ **`Apps and Configuration`** ”
 
@@ -358,11 +358,11 @@ Ahora, `simulate` los pasos para ejecutar el recopilador de datos.
 
     Los datos de configuración del servidor son extremadamente útiles en Transformation Advisor para generar artefactos de implementación en el paquete de migración, que exploraremos más adelante en el laboratorio.
 
-    <kbd><img src="./images/media/image21_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image21_new.png" alt=""></kbd>
 
 5. Revise, pero **NO EJECUTE** el comando recopilador de datos que se muestra a continuación, que se basa en las opciones seleccionadas.
 
-    <kbd><img src="./images/media/image22.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image22.png" alt=""></kbd>
 
     ---
 
@@ -377,7 +377,7 @@ Ahora, `simulate` los pasos para ejecutar el recopilador de datos.
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/warn.png" style="width:0.60625in;height:0.60625in" alt="señal de precaución"></kbd></td>
+<td><kbd><img src="./../images/media/warn.png" style="width:0.60625in;height:0.60625in" alt="señal de precaución"></kbd></td>
 <td>
 <p><strong>Importante:</strong></p>
 <p>Esta sección es sólo para fines ilustrativos.</p>
@@ -401,13 +401,13 @@ Si WebSphere Application Server y Transformation Advisor tienen conectividad, el
 
     **Nuevamente, solo como referencia, NO EJECUTE los comandos**
 
-    ![Una captura de pantalla de un teléfono celular Descripción generada automáticamente](./images/media/image24.png)
+    ![Una captura de pantalla de un teléfono celular Descripción generada automáticamente](./../images/media/image24.png)
 
     Este es un ejemplo de la salida del recopilador de datos, que muestra el progreso del análisis de los perfiles de WebSphere.
 
     **¡Nuevamente, sólo para referencia!**
 
-    <kbd><img src="./images/media/image25.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image25.png" alt=""></kbd>
 
     ---
 
@@ -445,33 +445,33 @@ Además, ejecutaría el recopilador de datos en el entorno de destino para recop
 
 1. Regrese a la página Asesor de Transformación en el navegador web, haga clic en el enlace **`Workload type`** para ir a la página Recomendaciones.
 
-    <kbd><img src="./images/media/image26.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image26.png" alt=""></kbd>
 
 2. Desde el espacio de trabajo **de Evaluación** , cargue el archivo de recopilación de datos **`AppSrv01-3.8.1.zip`** .
 
     a. Haga clic en el botón **`Upload`** para cargar un archivo de recopilación de datos.
 
-    <kbd><img src="./images/media/image27.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image27.png" alt=""></kbd>
 
     b. Desde la página Cargar datos, haga clic en el enlace **`Drop or add file`**
 
-    <kbd><img src="./images/media/image28.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image28.png" alt=""></kbd>
 
     <!-- LBH: Adjusted test and picture to Student path -->
 
     c. Vaya a la ubicación del archivo de recopilación de datos **: Inicio &gt; TechZone &gt; Estudiante &gt; Appmod-pot-labfiles &gt; Labs &gt; TransformationAdvisor** y seleccione el archivo **`AppSrv01-3.8.1.zip`** . Luego, haga clic en el botón **`Open`** en la página.
 
-    <kbd><img src="./images/media/image29_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image29_new.png" alt=""></kbd>
 
     d. El archivo de recopilación de datos **AppSrv01-3.8.1.zip** ya está listo para cargarse. Haga clic en el botón **`Upload`** para continuar.
 
-    <kbd><img src="./images/media/image30_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image30_new.png" alt=""></kbd>
 
     Una vez que la recopilación de datos se haya cargado en Transformation Advisor, se le redirigirá nuevamente a la pantalla Recomendaciones de TA.
 
     Tenga en cuenta que la página muestra “ **Todas las aplicaciones Java** ” del perfil de WebSphere Application Server llamado **AppSrv01-3.8.1** .
 
-    <kbd><img src="./images/media/image31_new_.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image31_new_.png" alt=""></kbd>
 
     Los siguientes detalles se incluyen en la sección `workspace summary` en la parte superior de la página:
 
@@ -495,7 +495,7 @@ En esta sección, utilizará la interfaz de usuario de Transformation Advisor pa
 
 1. Desde la página “ **Todas las aplicaciones Java”** , puede ver que se analizaron un total de 5 aplicaciones del servidor WAS.
 
-    <kbd><img src="./images/media/image32_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image32_new.png" alt=""></kbd>
 
     Al cargar datos, Transformation Advisor detecta automáticamente el **equipo host** del que provienen, es decir, dónde se ejecutaban las aplicaciones del servidor de aplicaciones WebSphere. Transformation Advisor crea la **colección** correspondiente y añade las aplicaciones allí.
 
@@ -505,7 +505,7 @@ En esta sección, utilizará la interfaz de usuario de Transformation Advisor pa
 
 2. Haga clic en el icono desplegable **`Collections`** y vea el nombre de la colección: “ **admin.ibm.demo** ”
 
-    <kbd><img src="./images/media/image33_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image33_new.png" alt=""></kbd>
 
     El asesor de transformación analiza todo el **código de la aplicación** y **el código común** que se comparte entre las aplicaciones y proporciona un costo total estimado para migrar las aplicaciones y el código común en el espacio de trabajo.
 
@@ -517,7 +517,7 @@ En esta sección, utilizará la interfaz de usuario de Transformation Advisor pa
     - WebSphere Liberty
     - WebSphere tradicional
 
-    <kbd><img src="./images/media/image34_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image34_new.png" alt=""></kbd>
 
     Puede elegir varios objetivos de migración y Transformation Advisor le proporcionará el esfuerzo y el costo total del espacio de trabajo para cada uno de los objetivos seleccionados.
 
@@ -525,7 +525,7 @@ En esta sección, utilizará la interfaz de usuario de Transformation Advisor pa
 
     |                                                                                      |                                                                                                                                                                                                                                                         |
     |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | <kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd> | Dependiendo de las aplicaciones, es posible que la migración a Open Liberty requiera más esfuerzo que a WebSphere Liberty. Esto se debe a que Open Liberty no incluye todas las especificaciones de la API de Java EE que sí incluye WebSphere Liberty. |
+    | <kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd> | Dependiendo de las aplicaciones, es posible que la migración a Open Liberty requiera más esfuerzo que a WebSphere Liberty. Esto se debe a que Open Liberty no incluye todas las especificaciones de la API de Java EE que sí incluye WebSphere Liberty. |
 
 3. En la sección **Objetivos de migración,** seleccione los **tres** objetivos de migración y observe los diferentes costos de desarrollo asociados con la migración de las cinco aplicaciones en el espacio de trabajo a los diversos entornos de objetivos de migración.
 
@@ -533,7 +533,7 @@ En esta sección, utilizará la interfaz de usuario de Transformation Advisor pa
 
     Sin embargo, migrar a **“WebSphere Liberty”** puede requerir **2,5 días** y “ **Open Liberty”** puede llevar **5,5 días** de tiempo de desarrollo.
 
-    <kbd><img src="./images/media/image35_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image35_new.png" alt=""></kbd>
 
     La página “ **Todas las aplicaciones Java”** también muestra los resultados del análisis **del resumen** **de aplicaciones** para todas las aplicaciones del perfil AppSrv01 para cada uno de los destinos de migración seleccionados.
 
@@ -547,7 +547,7 @@ En esta sección, utilizará la interfaz de usuario de Transformation Advisor pa
     - Costo de la solicitud (en días)
     - Plan de migración
 
-    <kbd><img src="./images/media/image36_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image36_new.png" alt=""></kbd>
 
     Los siguientes detalles se incluyen en la tabla de resumen (esta es la vista por aplicación):
 
@@ -577,7 +577,7 @@ Aprenderá por qué los diferentes entornos de destino generan distintos grados 
 
     Esto filtra la lista de aplicaciones solo a “CustomerOrderServicesApp.ear” en Open Liberty, WebSphere Liberty y WebSphere Traditional.
 
-    <kbd><img src="./images/media/image107_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image107_new.png" alt=""></kbd>
 
 2. Lo primero que hay que tener en cuenta es la cantidad de problemas y el costo de la aplicación asociado a la aplicación para cada uno de los tres entornos de destino.
 
@@ -589,7 +589,7 @@ Aprenderá por qué los diferentes entornos de destino generan distintos grados 
 
     - Migrar la aplicación a **Open Liberty** presenta una complejidad **moderada** . Se requiere un cambio de código, parte del cual puede automatizarse. Requiere 3,5 días de desarrollo para resolver un problema de servidor, dos menores y cuatro de información reportados.
 
-    <kbd><img src="./images/media/image108_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image108_new.png" alt=""></kbd>
 
 ### 6.6.1.2 Examinar CustomerOrderServicesApp.ear en WebSphere Liberty
 
@@ -601,7 +601,7 @@ Para hacer eso, necesitamos profundizar en algunos de los detalles e informes.
 
     a. Haga clic en `CustomerOrderSrvicesApp.ear` para **`WebSphere Liberty`** para abrir su vista de detalles.
 
-    <kbd><img src="./images/media/image109_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image109_new.png" alt=""></kbd>
 
     b. Amplíe las **`Complexity Rules`** para mover la aplicación a WebSphere Liberty.
 
@@ -615,7 +615,7 @@ Para hacer eso, necesitamos profundizar en algunos de los detalles e informes.
 
     Estos **problemas de información** son bien conocidos y están documentados sobre cómo resolverlos mediante las herramientas de migración.
 
-    <kbd><img src="./images/media/image110_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image110_new.png" alt=""></kbd>
 
     Para profundizar en estas cuestiones, examinemos el **informe de análisis** generado por Transformation Advisor.
 
@@ -623,35 +623,35 @@ Para hacer eso, necesitamos profundizar en algunos de los detalles e informes.
 
     d. Haga clic en el **`Analysis report`** , que abrirá el informe en una nueva pestaña del navegador.
 
-    <kbd><img src="./images/media/image111_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image111_new.png" alt=""></kbd>
 
     e. En el **Informe de Análisis de Migración Detallado** , haga clic en el enlace **`Information`** bajo la columna "ETIQUETA". Esto le llevará directamente a los problemas críticos del informe.
 
-    <kbd><img src="./images/media/image112_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image112_new.png" alt=""></kbd>
 
     f. Haga clic en el enlace **`Show rule help`** para expandir la sección de ayuda para el problema **de seguridad de Java EE** .
 
-    <kbd><img src="./images/media/image113_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image113_new.png" alt=""></kbd>
 
     g. Lea la “ **ayuda de reglas** ”. Explica que, al migrar aplicaciones que usan seguridad Java EE a la nube, es importante considerar cómo la aplicación usa el registro de usuarios, los Interceptores de Asociación de Confianza (TAI) y los módulos de inicio de sesión personalizados de JAAS, así como su servidor de seguridad local.
 
-    <kbd><img src="./images/media/image114_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image114_new.png" alt=""></kbd>
 
     h. Para saber dónde en el código de la aplicación están marcados estos problemas, haga clic en el enlace **`show results`** junto al problema.
 
-    <kbd><img src="./images/media/image115_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image115_new.png" alt=""></kbd>
 
     Verá los módulos, clases, nombres de métodos y números de línea afectados por el problema.
 
-    <kbd><img src="./images/media/image116_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image116_new.png" alt=""></kbd>
 
 2. Regrese a la pestaña del navegador que muestra la “ **Página de detalles de la aplicación** ” y vea el **`Technology report`** .
 
-    <kbd><img src="./images/media/image44_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image44_new.png" alt=""></kbd>
 
     El informe de tecnología proporciona detalles sobre qué plataformas de IBM admiten las tecnologías Java EE utilizadas por las aplicaciones.
 
-    <kbd><img src="./images/media/image118_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image118_new.png" alt=""></kbd>
 
     ---
 
@@ -669,9 +669,9 @@ Entendamos por qué el esfuerzo para mover la aplicación a Open Liberty requier
 
 1. Regrese a la pestaña del navegador que muestra la **página de detalles de la aplicación** .
 
-2. Desplácese hasta la parte superior y haga clic en “Todas las aplicaciones Java”. <kbd></kbd>![](./images/media/TA_AllApps_new.png)
+2. Desplácese hasta la parte superior y haga clic en “Todas las aplicaciones Java”. <kbd></kbd>![](./../images/media/TA_AllApps_new.png)
 
-3. Desplácese hacia abajo hasta las aplicaciones Java y busque CustomerOrderServicesApp.ear. <kbd></kbd>![](./images/media/COS_Liberty_new.png)
+3. Desplácese hacia abajo hasta las aplicaciones Java y busque CustomerOrderServicesApp.ear. <kbd></kbd>![](./../images/media/COS_Liberty_new.png)
 
     **Tenga en cuenta** que el tiempo de desarrollo para migrar la aplicación a Open Liberty es de 3,5 días, mientras que para migrar a WebSphere Liberty es de 0 días. Veamos por qué.
 
@@ -679,13 +679,13 @@ Entendamos por qué el esfuerzo para mover la aplicación a Open Liberty requier
 
     **Consejo:** Puede escribir "Cliente" en el campo de búsqueda para filtrar solo la aplicación de Servicios de pedidos de clientes.
 
-    <kbd><img src="./images/media/image119_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image119_new.png" alt=""></kbd>
 
 5. Expandir las **reglas de complejidad** para ver los detalles de los problemas.
 
     Podemos ver que al pasar a Open Liberty se detectan problemas relacionados con JPA, caché de segundo nivel de unidad de persistencia y exploraciones CDI que no estaban marcados para WebSphere Liberty.
 
-    <kbd><img src="./images/media/image120_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image120_new.png" alt=""></kbd>
 
 6. Desplácese hacia abajo hasta la sección **“Problemas de código únicos”** de la vista de detalles.
 
@@ -699,19 +699,19 @@ Entendamos por qué el esfuerzo para mover la aplicación a Open Liberty requier
 
     ---
 
-    <kbd><img src="./images/media/image121_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image121_new.png" alt=""></kbd>
 
 <!-- LBH: Addes bullet about automated fix -->
 
-1. Desplácese hacia abajo para ver los detalles de la **solución automática** . <kbd></kbd>![](./images/media/TA_COS_AutomatedFix_new.png)
+1. Desplácese hacia abajo para ver los detalles de la **solución automática** . <kbd></kbd>![](./../images/media/TA_COS_AutomatedFix_new.png)
 
 2. Desplácese hacia abajo hasta los informes disponibles. Abra el **`Analysis report`**
 
-    <kbd><img src="./images/media/image111_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image111_new.png" alt=""></kbd>
 
 3. Vaya a las **`Critical rules`** marcadas para la aplicación que se mueve a Open Liberty.
 
-    <kbd><img src="./images/media/image123_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image123_new.png" alt=""></kbd>
 
 4. Expandir la sección **`OpenJPA and WebSphere JPA configuration properties must be migrated`**
 
@@ -721,7 +721,7 @@ Entendamos por qué el esfuerzo para mover la aplicación a Open Liberty requier
 
     **Open Liberty** no es compatible con esa especificación antigua. Sin embargo, **WebSphere Liberty** sí es compatible con muchas de las especificaciones de la API de Java EE 6, incluida JPA 2.0.
 
-    <kbd><img src="./images/media/image124_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image124_new.png" alt=""></kbd>
 
 En este examen de la aplicación Servicios de pedidos de clientes para **WebSphere Liberty** y **Open Liberty** , obtuvo información acerca de por qué el alcance del esfuerzo para migrar a Open Liberty puede ser MAYOR en comparación con migrar a WebSphere Liberty.
 
@@ -737,15 +737,15 @@ En pocas palabras, Transformation Advisor crea el archivo server.xml que contien
 
 1. Regrese a la página **“Todas las aplicaciones Java”** en Transformation Advisor, que muestra la lista de resumen de aplicaciones Java
 
-    <kbd><img src="./images/media/TA_AllApps_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_AllApps_new.png" alt=""></kbd>
 
 2. Asegúrese de que solo esté seleccionado el destino de migración **`WebSphere Liberty`**
 
-    <kbd><img src="./images/media/TA_COS_AllApps_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_COS_AllApps_new.png" alt=""></kbd>
 
 3. Haga clic en el enlace **`Migration plan`** ubicado junto a **`CustomerOrderServicesApp.ear`** para **`WebSphere Liberty`** , que mostrará el plan de migración para el destino WebSphere Liberty.
 
-    <kbd><img src="./images/media/TA_COS_WLP_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_COS_WLP_new.png" alt=""></kbd>
 
 4. El **`Migration plan`** muestra una "lista parcial" de archivos generados por el asesor de transformación para ayudar en la migración de la aplicación.
 
@@ -757,17 +757,17 @@ En pocas palabras, Transformation Advisor crea el archivo server.xml que contien
 
     <!-- LBH: Adjusted picture -->
 
-    <kbd><img src="./images/media/TA_Migration_bundle_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_Migration_bundle_new.png" alt=""></kbd>
 
 5. Haga clic para ver el contenido del archivo **`server.xml`** .
 
     <!-- LBH: Adjusted picture -->
 
-    <kbd><img src="./images/media/TA_Migration_artifacts_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_Migration_artifacts_new.png" alt=""></kbd>
 
 6. El **server.xml** se muestra en la ventana de vista previa del archivo, haga clic en **`Show more`** para expandirlo.
 
-    <kbd><img src="./images/media/TA_server_xml_preview_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_server_xml_preview_new.png" alt=""></kbd>
 
 7. Revise el contenido del archivo **server.xml** .
 
@@ -779,19 +779,19 @@ En pocas palabras, Transformation Advisor crea el archivo server.xml que contien
 
     <!-- LBH: Updated picture -->
 
-    <kbd><img src="./images/media/TA_server_xml_features_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_server_xml_features_new.png" alt=""></kbd>
 
     b. Se configuran los **puntos finales de la aplicación** y **la configuración del módulo de la aplicación empresarial,** incluyendo **los roles de seguridad** que utiliza la aplicación. Observe que **las variables ${ }** se utilizan para simplificar las anulaciones de la configuración externa y los valores predeterminados.
 
     <!-- LBH: Updated picture -->
 
-    <kbd><img src="./images/media/TA_server_xml_app_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_server_xml_app_new.png" alt=""></kbd>
 
     c. Se han configurado **la configuración de la base de datos** y **los alias de autenticación** . Observe también las variables utilizadas.
 
     <!-- LBH: Updated picture -->
 
-    <kbd><img src="./images/media/TA_server_xml_sec_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_server_xml_sec_new.png" alt=""></kbd>
 
     d. Se configuran **las variables** y los valores predeterminados cuando tiene sentido.
 
@@ -801,15 +801,15 @@ En pocas palabras, Transformation Advisor crea el archivo server.xml que contien
 
     Las variables se pueden anular fácilmente mediante variables de entorno o configMaps y secretos en entornos de Kubernetes.
 
-    <kbd><img src="./images/media/TA_server_xml_var_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_server_xml_var_new.png" alt=""></kbd>
 
 <!-- LBH: Added app dependencies -->
 
-1. Cierre la vista previa del archivo, desplácese hacia abajo y abra el archivo Twisty para ver las dependencias de la aplicación. Como puede ver, la aplicación requería los archivos JAR del controlador DB2. <kbd></kbd>![](./images/media/TA_AppDependencies_new.png)
+1. Cierre la vista previa del archivo, desplácese hacia abajo y abra el archivo Twisty para ver las dependencias de la aplicación. Como puede ver, la aplicación requería los archivos JAR del controlador DB2. <kbd></kbd>![](./../images/media/TA_AppDependencies_new.png)
 
 2. Haga clic para descargar el **Plan de Migración** generado por Transformation Advisor
 
-    <kbd><img src="./images/media/TA_Bundle_Download_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_Bundle_Download_new.png" alt=""></kbd>
 
     Deje la carpeta de destino y el nombre del archivo y pulse Guardar. El paquete de migración, en formato zip, se descargará en el directorio **de descargas** de la máquina virtual.
 
@@ -819,7 +819,7 @@ En pocas palabras, Transformation Advisor crea el archivo server.xml que contien
     unzip -l customerorderservicesapp.ear_migrationBundle.zip
     ```
 
-    <kbd></kbd>![](./images/media/COS_migrationBundle_new.png) Además de los archivos mencionados anteriormente, el paquete de migración contiene varios otros archivos para la implementación de Kubernetes, para la personalización, así como archivos de marcador de posición para la aplicación y los controladores JDBC.
+    <kbd></kbd>![](./../images/media/COS_migrationBundle_new.png) Además de los archivos mencionados anteriormente, el paquete de migración contiene varios otros archivos para la implementación de Kubernetes, para la personalización, así como archivos de marcador de posición para la aplicación y los controladores JDBC.
 
 ### 6.6.2 Evaluar la aplicación de Mod Resorts
 
@@ -829,15 +829,15 @@ En esta sección, revisará los resultados del análisis de la aplicación **mod
 
 1. Regrese a la página “Todas las aplicaciones Java” en Transformation Advisor.
 
-    <kbd><img src="./images/media/image101_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image101_new.png" alt=""></kbd>
 
 2. Seleccione los tres objetivos de migración del menú
 
-    <kbd><img src="./images/media/image102_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image102_new.png" alt=""></kbd>
 
 3. En el campo **"Buscar"** , escriba **`modresorts`** , lo que limitará la lista de aplicaciones a solo la aplicación Mod Resorts para los tres objetivos de migración.
 
-    <kbd><img src="./images/media/image103_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image103_new.png" alt=""></kbd>
 
     En este ejemplo, si desea mover la aplicación **modresorts-1_0_war.ear** a **Open Liberty** , el nivel de complejidad es **Simple** , lo que indica que no es necesario cambiar el código de la aplicación antes de poder moverla a Open Liberty.
 
@@ -845,11 +845,11 @@ En esta sección, revisará los resultados del análisis de la aplicación **mod
 
     El esfuerzo de desarrollo estimado es de día cero porque no se requiere ningún cambio de código.
 
-    <kbd><img src="./images/media/image104_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image104_new.png" alt=""></kbd>
 
     Tenga en cuenta que la aplicación modresorts también es sencilla de migrar a los destinos de migración tradicionales de WebSphere Liberty y WebSphere.
 
-    <kbd><img src="./images/media/image105_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image105_new.png" alt=""></kbd>
 
     En este laboratorio, se centrará en la modernización de `moderesorts-1.0_war.ear` a `Open Liberty` .
 
@@ -857,25 +857,25 @@ En esta sección, revisará los resultados del análisis de la aplicación **mod
 
 4. Haga clic en el enlace **`modresorts-1_0_war.ear`** dirigido a **Open Liberty** para ampliar los resultados de su análisis.
 
-    <kbd><img src="./images/media/image104a_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image104a_new.png" alt=""></kbd>
 
     La primera sección de la página de resumen del análisis detallado es la **sección "Reglas de complejidad"** . La complejidad general de la aplicación es **simple** , lo que indica que se puede migrar directamente a Open Liberty sin modificar el código.
 
-    <kbd><img src="./images/media/image106_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image106_new.png" alt=""></kbd>
 
 5. Desplácese hacia abajo hasta la sección **`Complexity Rules`** . Puede ver que no se requiere ningún cambio de código ni ningún costo de desarrollo; el costo estimado de desarrollo total de la migración es de **0 días** .
 
     Esta estimación se basa en datos de los compromisos de IBM Services, que incluyen la migración del código de la aplicación, pero no abarcan el alcance total de un proyecto de migración que incluiría la configuración del servidor, pruebas, etc.
 
-    <kbd><img src="./images/media/image42_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image42_new.png" alt=""></kbd>
 
 6. Expande la sección **`Issues and details`** . Puedes ver que el único problema potencial menor mencionado es la configuración de CDI (beans de inyección de dependencia de contexto).
 
-    <kbd><img src="./images/media/image43_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image43_new.png" alt=""></kbd>
 
 7. A continuación, desplácese hasta la parte inferior de la página y haga clic en el enlace **`Technology Report`** ; esto abre una nueva ventana del navegador para mostrar el Informe de evaluación de la aplicación.
 
-    <kbd><img src="./images/media/image44_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image44_new.png" alt=""></kbd>
 
     El **informe de tecnología** enumera todas las tecnologías Java que utiliza la aplicación y si estas tecnologías son compatibles con una plataforma WebSphere específica, desde Liberty para Java en IBM Cloud hasta WebSphere tradicional para z/OS.
 
@@ -884,7 +884,7 @@ En esta sección, revisará los resultados del análisis de la aplicación **mod
     <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/info.png" style="width:1.73958in;height:0.64583in" alt="información de inicio de sesión"></kbd></td>
+    <td><kbd><img src="./../images/media/info.png" style="width:1.73958in;height:0.64583in" alt="información de inicio de sesión"></kbd></td>
     <td>
     <p><strong>CONSEJO:</strong></p>
     <p>Si la complejidad de migrar al entorno de destino es “ <strong>Compleja</strong> ”, significa que algunas API no están disponibles en el entorno de ejecución de destino y la aplicación deberá reescribirse para usar API diferentes.</p>
@@ -893,23 +893,23 @@ En esta sección, revisará los resultados del análisis de la aplicación **mod
     </tbody>
     </table>
 
-    <kbd><img src="./images/media/image45_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image45_new.png" alt=""></kbd>
 
     Como puede ver en el informe, la aplicación Mod Resorts solo utiliza **Java Servlet** , que es compatible con todas las ediciones de WebSphere.
 
 8. Regrese a la página Asesor de Transformación y haga clic en el enlace **`Inventory Report`** .
 
-    <kbd><img src="./images/media/TA_Inventory_Report_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_Inventory_Report_new.png" alt=""></kbd>
 
     El **Informe de inventario** le ayuda a examinar lo que hay en su aplicación, incluida la cantidad de módulos, sus relaciones y las tecnologías en esos módulos.
 
     También ofrece una vista de todos los archivos JAR de utilidades en la aplicación y los **nombres de los paquetes Java** en los archivos JAR, lo que ayudará a identificar si las clases corresponden al código de la aplicación del cliente o a código de <sup>terceros</sup> . También se incluyen posibles problemas de implementación y consideraciones de rendimiento.
 
-    <kbd><img src="./images/media/image53_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image53_new.png" alt=""></kbd>
 
     a. Desplácese hacia abajo por el `Inventory Report` para ver este informe que sirve como una buena herramienta para la toma de decisiones que le informa qué hay dentro del tiempo de ejecución de su aplicación y le ayuda a comprender mejor el tiempo de ejecución de la aplicación, los componentes que tiene y las relaciones entre ellos.
 
-    <kbd><img src="./images/media/image54_new.png" alt="Informe de inventario de ta 2"></kbd>
+    <kbd><img src="./../images/media/image54_new.png" alt="Informe de inventario de ta 2"></kbd>
 
 9. En el `Inventory report` , vea los nombres de los paquetes de las clases en la utilidad Jars
 
@@ -925,7 +925,7 @@ En esta sección, revisará los resultados del análisis de la aplicación **mod
 
     Podría ser posible que el código de la aplicación no se haya analizado debido a que el recopilador de datos ignora los nombres de los paquetes.
 
-    <kbd><img src="./images/media/image55_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image55_new.png" alt=""></kbd>
 
     De los informes de análisis que revisó anteriormente, sabe que la aplicación Mod Resorts cuenta con el respaldo de Open Liberty y que el problema que identificó la herramienta no afectaría la migración de la aplicación.
 
@@ -939,15 +939,15 @@ Con fines ilustrativos, en esta breve sección se capturan algunas capturas de p
 
 La página de inicio de la aplicación Mod Resorts se ilustra aquí:
 
-<kbd><img src="./images/media/image56.png" alt="Página de inicio de la aplicación Mod Resorts"></kbd>
+<kbd><img src="./../images/media/image56.png" alt="Página de inicio de la aplicación Mod Resorts"></kbd>
 
 El usuario seleccionaría el destino de su viaje.
 
-<kbd><img src="./images/media/image57.png" alt="Aplicación de Mod Resorts: ¿dónde encontrarla?"></kbd>
+<kbd><img src="./../images/media/image57.png" alt="Aplicación de Mod Resorts: ¿dónde encontrarla?"></kbd>
 
 Quizás el usuario quiera ir a **París, Francia. Mod Resorts muestra el** clima de la ciudad.
 
-<kbd><img src="./images/media/image58.png" alt="Aplicación de Mod Resorts en París"></kbd>
+<kbd><img src="./../images/media/image58.png" alt="Aplicación de Mod Resorts en París"></kbd>
 
 Continúe con la siguiente sección del laboratorio, donde se le presentará brevemente el plan de migración de Transformation Advisor.
 
@@ -961,21 +961,21 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Mod R
 
 1. Regrese a la página “ **Todas las aplicaciones Java** ” en Transformation Advisor, que muestra la lista de resumen de aplicaciones Java
 
-    <kbd><img src="./images/media/image59_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image59_new.png" alt=""></kbd>
 
 2. Asegúrese de que solo esté seleccionado el objetivo de migración **`Open Liberty`**
 
-    <kbd><img src="./images/media/image60_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image60_new.png" alt=""></kbd>
 
 3. Haga clic en el enlace **`Migration plan`** ubicado junto al análisis de la aplicación Mod Resorts para `Open Liberty` , que mostrará **`migration plan`** para modresorts para el objetivo Open Liberty
 
-    <kbd><img src="./images/media/image61_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image61_new.png" alt=""></kbd>
 
 4. Haga clic en el enlace **`Download`** para descargar el paquete de artefactos al sistema de archivos local en la máquina virtual de la estación de trabajo.
 
-    <kbd><img src="./images/media/image65_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image65_new.png" alt=""></kbd>
 
-    Acepte los valores predeterminados y haga clic en **Guardar.** <kbd></kbd>![](./images/media/image65a_new.png) El archivo **modresorts10war_migrationBundle.zip** se descargará en el directorio **/home/techzone/Downloads**
+    Acepte los valores predeterminados y haga clic en **Guardar.** <kbd></kbd>![](./../images/media/image65a_new.png) El archivo **modresorts10war_migrationBundle.zip** se descargará en el directorio **/home/techzone/Downloads**
 
 5. Descomprima los artefactos del paquete de migración en una nueva carpeta en la máquina virtual de la estación de trabajo
 
@@ -995,7 +995,7 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Mod R
     ls
     ```
 
-    <kbd><img src="./images/media/image66_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image66_new.png" alt=""></kbd>
 
 6. Vea el archivo **server.xml** . NO CAMBIE EL CONTENIDO DEL ARCHIVO.
 
@@ -1005,7 +1005,7 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Mod R
     gedit ~/Student/modresorts-bundle/src/main/liberty/config/server.xml
     ```
 
-    <kbd><img src="./images/media/image67_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image67_new.png" alt=""></kbd>
 
     - La lista de características de Liberty incluye características que la aplicación requiere.
 
@@ -1027,11 +1027,11 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Mod R
 
         - La primera fase es la “ **etapa de compilación** ”, que crea una imagen de Docker para la aplicación modresorts.
 
-            <kbd><img src="./images/media/image68_new.png" alt=""></kbd>
+            <kbd><img src="./../images/media/image68_new.png" alt=""></kbd>
 
         - La segunda etapa utiliza la imagen del contenedor **del kernel Open Liberty** y los artefactos de compilación producidos en la “etapa de compilación” para compilar la imagen del contenedor modresorts con la aplicación modresorts y los archivos de configuración para implementar en un entorno de contenedor.
 
-            <kbd><img src="./images/media/image69_new.png" alt=""></kbd>
+            <kbd><img src="./../images/media/image69_new.png" alt=""></kbd>
 
 9. **Cierre** el editor al terminar de revisar el archivo. **NO GUARDE** ningún cambio en el contenido.
 
@@ -1044,7 +1044,7 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Mod R
     ls ~/Student/modresorts-bundle/target
     ```
 
-    <kbd><img src="./images/media/replace_placeholder_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/replace_placeholder_new.png" alt=""></kbd>
 
 ## 8. Utilice los aceleradores de implementación de Transformation Advisor para implementar y ejecutar la aplicación Mod Resorts en Open Liberty
 
@@ -1087,7 +1087,7 @@ Para empezar, creará un nuevo directorio donde desea instalar Open Liberty. Lue
     bin/server create modresorts_server
     ```
 
-    <kbd><img src="./images/media/image70_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image70_new.png" alt=""></kbd>
 
 3. Utilice el comando **`server`** para iniciar el servidor Open Liberty llamado **`modresorts_server`** . La configuración del servidor se almacenará en **`usr/servers`** .
 
@@ -1095,7 +1095,7 @@ Para empezar, creará un nuevo directorio donde desea instalar Open Liberty. Lue
     bin/server start modresorts_server
     ```
 
-    <kbd><img src="./images/media/image71_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image71_new.png" alt=""></kbd>
 
 4. Abra una nueva ventana `Terminal` y vea el archivo de registro del servidor Open Liberty llamado “messages.log”
 
@@ -1106,7 +1106,7 @@ Para empezar, creará un nuevo directorio donde desea instalar Open Liberty. Lue
 
     a. Busque el mensaje que indica que el servidor de Modresorts se inició correctamente.
 
-    <kbd><img src="./images/media/image72_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image72_new.png" alt=""></kbd>
 
     En este punto, tiene un servidor Open Liberty ejecutándose con la configuración predeterminada. Sin embargo, no hay aplicaciones instaladas (implementadas).
 
@@ -1134,7 +1134,7 @@ Para empezar, creará un nuevo directorio donde desea instalar Open Liberty. Lue
 
     **Nota:** Verá un mensaje que indica que se inició la aplicación modresorts.
 
-    <kbd><img src="./images/media/image73_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image73_new.png" alt=""></kbd>
 
 7. Ejecute la aplicación modresorts desde el navegador web en la máquina virtual. El contexto raíz de la aplicación es `/resorts` y está definido en el archivo server.xml de Open Liberty.
 
@@ -1142,14 +1142,14 @@ Para empezar, creará un nuevo directorio donde desea instalar Open Liberty. Lue
     http://localhost:9080/resorts
     ```
 
-    <kbd><img src="./images/media/image74_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image74_new.png" alt=""></kbd>
 
     a. Puede hacer clic en el menú desplegable "¿ **A DÓNDE** ?" y seleccionar un destino.
 
     <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/warn.png" style="width:0.80625in;height:0.60625in" alt="señal de precaución"></kbd></td>
+    <td><kbd><img src="./../images/media/warn.png" style="width:0.80625in;height:0.60625in" alt="señal de precaución"></kbd></td>
     <td>
     <p><strong>¡Consejo!</strong></p>
     <p>Si la aplicación no responde al hacer clic en el menú “¿A DÓNDE?”, aumente el tamaño de la ventana del navegador web.</p>
@@ -1158,11 +1158,11 @@ Para empezar, creará un nuevo directorio donde desea instalar Open Liberty. Lue
     </tbody>
     </table>
 
-    <kbd><img src="./images/media/image75_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image75_new.png" alt=""></kbd>
 
 8. En la ventana de Terminal que ejecuta el comando “ **tail** ” en el archivo de registro de Open Liberty, observe que se ha accedido a la aplicación.
 
-    <kbd><img src="./images/media/image75b_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image75b_new.png" alt=""></kbd>
 
 9. Acceda a la ventana `Terminal` donde inició Liberty. `Stop` el servidor Open Liberty desde una ventana de Terminal.
 
@@ -1170,7 +1170,7 @@ Para empezar, creará un nuevo directorio donde desea instalar Open Liberty. Lue
     bin/server stop modresorts_server
     ```
 
-    <kbd><img src="./images/media/image76_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image76_new.png" alt=""></kbd>
 
 10. Regrese a la ventana de Terminal ejecutando el comando “ **tail** ”, luego use **CTL-C** para detener el comando “ **tail** ”.
 
@@ -1209,7 +1209,7 @@ El `Containerfile` es un Containerfile de dos etapas:
 
     Cuando termine, verá que la imagen del contenedor se creó y se etiquetó como “ **modresorts:1.0** ”.
 
-    <kbd><img src="./images/media/image77_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image77_new.png" alt=""></kbd>
 
     c. Enumere la imagen del contenedor y su etiqueta. El nombre de la imagen es " **modresorts** " y está etiquetada como " **1.0** ".
 
@@ -1217,7 +1217,7 @@ El `Containerfile` es un Containerfile de dos etapas:
     docker images | grep modresorts
     ```
 
-    <kbd><img src="./images/media/image78_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image78_new.png" alt=""></kbd>
 
 2. Ejecute la aplicación Modresorts en el contenedor
 
@@ -1243,7 +1243,7 @@ El `Containerfile` es un Containerfile de dos etapas:
 
     Al ejecutar “ **docker ps -a** ” se enumeran todos los contenedores, incluidos los que están detenidos.
 
-    <kbd><img src="./images/media/image79_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image79_new.png" alt=""></kbd>
 
 4. Vea el registro de Open Liberty en el contenedor “ **modresorts** ” para verificar que la aplicación modresorts se instaló y se está ejecutando
 
@@ -1251,7 +1251,7 @@ El `Containerfile` es un Containerfile de dos etapas:
     docker logs modresorts
     ```
 
-    <kbd><img src="./images/media/image80_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image80_new.png" alt=""></kbd>
 
 5. Ejecute la aplicación modresorts desde el navegador web.
 
@@ -1261,14 +1261,14 @@ El `Containerfile` es un Containerfile de dos etapas:
 
         http://localhost:9081/resorts
 
-    <kbd><img src="./images/media/image81_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image81_new.png" alt=""></kbd>
 
     a. Puede hacer clic en el menú desplegable "¿ **A DÓNDE** ?" y seleccionar un destino.
 
     <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/warn.png" style="width:0.90625in;height:0.60625in" alt="señal de precaución"></kbd></td>
+    <td><kbd><img src="./../images/media/warn.png" style="width:0.90625in;height:0.60625in" alt="señal de precaución"></kbd></td>
     <td>
     <p><strong>¡Consejo!</strong></p>
     <p>Si la aplicación no responde al hacer clic en el menú “¿A DÓNDE?”, aumente el tamaño de la ventana del navegador.</p>
@@ -1278,7 +1278,7 @@ El `Containerfile` es un Containerfile de dos etapas:
     </tbody>
     </table>
 
-    <kbd><img src="./images/media/image75_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image75_new.png" alt=""></kbd>
 
 ## 10. Limpieza
 
